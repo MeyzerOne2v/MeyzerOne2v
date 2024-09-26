@@ -66,6 +66,18 @@
                                         }, t)
                                     })
                                 })]
+                            }), (0, B.jsx)("div", {
+                                className: J().downloadGuide,
+                                children: (0, B.jsxs)("div", {
+                                    className: J().appWrapper,
+                                    children: [(0, B.jsx)(Y.n, {
+                                        src: "https://static.xtransfer.com/boss/static/downloadapp_00dc4d4be96a777b.png",
+                                        alt: "xTransfer app"
+                                    }), (0, B.jsxs)("span", {
+                                        className: J().downloadDesc,
+                                        children: ["Download", (0, B.jsx)("br", {}), "XTransfer App"]
+                                    })]
+                                })
                             })]
                         })]
                     }), (0, B.jsxs)("section", {
@@ -199,7 +211,7 @@
                         beforeClick: function () {
                             (0, ef.Ds)("hongkongsite_click", {
                                 hk_official_url: window.location.href,
-                                hk_official_button_name: "联络我们"
+                                hk_official_button_name: "è”ç»œæˆ‘ä»¬"
                             })
                         }
                     })]
@@ -774,7 +786,7 @@
         }), eG = function (e) {
             var t = e.open, n = e.close, l = e.beforeClick, r = (0, ep.qM)().hosts, i = r.official, a = r.hk, o = r.us,
                 c = r.uk;
-            return (0, B.jsx)("div", {
+            return t ? (0, B.jsx)("div", {
                 className: eM().regionSelectorMask, children: (0, B.jsxs)("div", {
                     className: eM().regionSelectorWrapper,
                     children: [(0, B.jsx)("div", {
@@ -789,12 +801,16 @@
                         className: eM().main,
                         children: (0, B.jsx)("ul", {
                             className: eM().regions,
-                            children: [{text: "Global  (English)", link: "https://".concat(a), Icon: eN}, {
-                                text: "中国",
+                            children: [{
+                                text: "Global  (English)",
+                                link: "https://".concat(a),
+                                Icon: eN
+                            }, {
+                                text: "ä¸­å›½",
                                 link: "https://".concat(i, "?lang=zh"),
                                 Icon: eI
-                            }, {text: "中国香港", link: "https://".concat(a, "/zh-HK"), Icon: eK}, {
-                                text: "日本",
+                            }, {text: "ä¸­å›½é¦™æ¸¯", link: "https://".concat(a, "/zh-HK"), Icon: eK}, {
+                                text: "æ—¥æœ¬",
                                 link: "https://".concat(i, "?lang=ja"),
                                 Icon: eB
                             }, {text: "United States", link: "https://".concat(o), Icon: eS}, {
@@ -824,7 +840,7 @@
                         children: (0, B.jsx)("div", {className: eM().line})
                     })]
                 })
-            }) 
+            }) : null
         }, eY = function (e) {
             var t = e.beforeClick, n = (0, R.useState)(!1), l = n[0], r = n[1];
             return (0, B.jsxs)("div", {
