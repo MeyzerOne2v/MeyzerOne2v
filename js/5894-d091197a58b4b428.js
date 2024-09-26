@@ -211,7 +211,7 @@
                         beforeClick: function () {
                             (0, ef.Ds)("hongkongsite_click", {
                                 hk_official_url: window.location.href,
-                                hk_official_button_name: "è”ç»œæˆ‘ä»¬"
+                                hk_official_button_name: "联络我们"
                             })
                         }
                     })]
@@ -801,16 +801,12 @@
                         className: eM().main,
                         children: (0, B.jsx)("ul", {
                             className: eM().regions,
-                            children: [{
-                                text: "Global  (English)",
-                                link: "https://".concat(a),
-                                Icon: eN
-                            }, {
-                                text: "ä¸­å›½",
+                            children: [{text: "Global  (English)", link: "https://".concat(a), Icon: eN}, {
+                                text: "中国",
                                 link: "https://".concat(i, "?lang=zh"),
                                 Icon: eI
-                            }, {text: "ä¸­å›½é¦™æ¸¯", link: "https://".concat(a, "/zh-HK"), Icon: eK}, {
-                                text: "æ—¥æœ¬",
+                            }, {text: "中国香港", link: "https://".concat(a, "/zh-HK"), Icon: eK}, {
+                                text: "日本",
                                 link: "https://".concat(i, "?lang=ja"),
                                 Icon: eB
                             }, {text: "United States", link: "https://".concat(o), Icon: eS}, {
