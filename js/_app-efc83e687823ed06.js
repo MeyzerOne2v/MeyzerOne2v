@@ -5850,84 +5850,84 @@ Sentry.init({...});
         Object.defineProperty(t, "__esModule", {value: !0}), t.default = void 0;
         var i = r(n(10434)), o = r(n(85369)), a = r(n(15704)), s = {
             lang: (0, i.default)({
-                placeholder: "请选择日期",
-                yearPlaceholder: "请选择年份",
-                quarterPlaceholder: "请选择季度",
-                monthPlaceholder: "请选择月份",
-                weekPlaceholder: "请选择周",
-                rangePlaceholder: ["开始日期", "结束日期"],
-                rangeYearPlaceholder: ["开始年份", "结束年份"],
-                rangeMonthPlaceholder: ["开始月份", "结束月份"],
-                rangeQuarterPlaceholder: ["开始季度", "结束季度"],
-                rangeWeekPlaceholder: ["开始周", "结束周"]
+                placeholder: "è¯·é€‰æ‹©æ—¥æœŸ",
+                yearPlaceholder: "è¯·é€‰æ‹©å¹´ä»½",
+                quarterPlaceholder: "è¯·é€‰æ‹©å­£åº¦",
+                monthPlaceholder: "è¯·é€‰æ‹©æœˆä»½",
+                weekPlaceholder: "è¯·é€‰æ‹©å‘¨",
+                rangePlaceholder: ["å¼€å§‹æ—¥æœŸ", "ç»“æŸæ—¥æœŸ"],
+                rangeYearPlaceholder: ["å¼€å§‹å¹´ä»½", "ç»“æŸå¹´ä»½"],
+                rangeMonthPlaceholder: ["å¼€å§‹æœˆä»½", "ç»“æŸæœˆä»½"],
+                rangeQuarterPlaceholder: ["å¼€å§‹å­£åº¦", "ç»“æŸå­£åº¦"],
+                rangeWeekPlaceholder: ["å¼€å§‹å‘¨", "ç»“æŸå‘¨"]
             }, o.default), timePickerLocale: (0, i.default)({}, a.default)
         };
-        s.lang.ok = "确定", t.default = s
+        s.lang.ok = "ç¡®å®š", t.default = s
     }, 82925: function (e, t, n) {
         "use strict";
         var r = n(64836).default;
         t.Z = void 0;
-        var i = r(n(74219)), o = r(n(80037)), a = r(n(5584)), s = r(n(15704)), l = "${label}不是一个有效的${type}",
+        var i = r(n(74219)), o = r(n(80037)), a = r(n(5584)), s = r(n(15704)), l = "${label}ä¸æ˜¯ä¸€ä¸ªæœ‰æ•ˆçš„${type}",
             c = {
                 locale: "zh-cn",
                 Pagination: i.default,
                 DatePicker: a.default,
                 TimePicker: s.default,
                 Calendar: o.default,
-                global: {placeholder: "请选择"},
+                global: {placeholder: "è¯·é€‰æ‹©"},
                 Table: {
-                    filterTitle: "筛选",
-                    filterConfirm: "确定",
-                    filterReset: "重置",
-                    filterEmptyText: "无筛选项",
-                    filterCheckall: "全选",
-                    filterSearchPlaceholder: "在筛选项中搜索",
-                    selectAll: "全选当页",
-                    selectInvert: "反选当页",
-                    selectNone: "清空所有",
-                    selectionAll: "全选所有",
-                    sortTitle: "排序",
-                    expand: "展开行",
-                    collapse: "关闭行",
-                    triggerDesc: "点击降序",
-                    triggerAsc: "点击升序",
-                    cancelSort: "取消排序"
+                    filterTitle: "ç­›é€‰",
+                    filterConfirm: "ç¡®å®š",
+                    filterReset: "é‡ç½®",
+                    filterEmptyText: "æ— ç­›é€‰é¡¹",
+                    filterCheckall: "å…¨é€‰",
+                    filterSearchPlaceholder: "åœ¨ç­›é€‰é¡¹ä¸­æœç´¢",
+                    selectAll: "å…¨é€‰å½“é¡µ",
+                    selectInvert: "åé€‰å½“é¡µ",
+                    selectNone: "æ¸…ç©ºæ‰€æœ‰",
+                    selectionAll: "å…¨é€‰æ‰€æœ‰",
+                    sortTitle: "æŽ’åº",
+                    expand: "å±•å¼€è¡Œ",
+                    collapse: "å…³é—­è¡Œ",
+                    triggerDesc: "ç‚¹å‡»é™åº",
+                    triggerAsc: "ç‚¹å‡»å‡åº",
+                    cancelSort: "å–æ¶ˆæŽ’åº"
                 },
-                Modal: {okText: "确定", cancelText: "取消", justOkText: "知道了"},
-                Popconfirm: {cancelText: "取消", okText: "确定"},
+                Modal: {okText: "ç¡®å®š", cancelText: "å–æ¶ˆ", justOkText: "çŸ¥é“äº†"},
+                Popconfirm: {cancelText: "å–æ¶ˆ", okText: "ç¡®å®š"},
                 Transfer: {
-                    searchPlaceholder: "请输入搜索内容",
-                    itemUnit: "项",
-                    itemsUnit: "项",
-                    remove: "删除",
-                    selectCurrent: "全选当页",
-                    removeCurrent: "删除当页",
-                    selectAll: "全选所有",
-                    removeAll: "删除全部",
-                    selectInvert: "反选当页"
+                    searchPlaceholder: "è¯·è¾“å…¥æœç´¢å†…å®¹",
+                    itemUnit: "é¡¹",
+                    itemsUnit: "é¡¹",
+                    remove: "åˆ é™¤",
+                    selectCurrent: "å…¨é€‰å½“é¡µ",
+                    removeCurrent: "åˆ é™¤å½“é¡µ",
+                    selectAll: "å…¨é€‰æ‰€æœ‰",
+                    removeAll: "åˆ é™¤å…¨éƒ¨",
+                    selectInvert: "åé€‰å½“é¡µ"
                 },
                 Upload: {
-                    uploading: "文件上传中",
-                    removeFile: "删除文件",
-                    uploadError: "上传错误",
-                    previewFile: "预览文件",
-                    downloadFile: "下载文件"
+                    uploading: "æ–‡ä»¶ä¸Šä¼ ä¸­",
+                    removeFile: "åˆ é™¤æ–‡ä»¶",
+                    uploadError: "ä¸Šä¼ é”™è¯¯",
+                    previewFile: "é¢„è§ˆæ–‡ä»¶",
+                    downloadFile: "ä¸‹è½½æ–‡ä»¶"
                 },
-                Empty: {description: "暂无数据"},
-                Icon: {icon: "图标"},
-                Text: {edit: "编辑", copy: "复制", copied: "复制成功", expand: "展开"},
-                PageHeader: {back: "返回"},
+                Empty: {description: "æš‚æ— æ•°æ®"},
+                Icon: {icon: "å›¾æ ‡"},
+                Text: {edit: "ç¼–è¾‘", copy: "å¤åˆ¶", copied: "å¤åˆ¶æˆåŠŸ", expand: "å±•å¼€"},
+                PageHeader: {back: "è¿”å›ž"},
                 Form: {
-                    optional: "（可选）",
+                    optional: "ï¼ˆå¯é€‰ï¼‰",
                     defaultValidateMessages: {
-                        default: "字段验证错误${label}",
-                        required: "请输入${label}",
-                        enum: "${label}必须是其中一个[${enum}]",
-                        whitespace: "${label}不能为空字符",
+                        default: "å­—æ®µéªŒè¯é”™è¯¯${label}",
+                        required: "è¯·è¾“å…¥${label}",
+                        enum: "${label}å¿…é¡»æ˜¯å…¶ä¸­ä¸€ä¸ª[${enum}]",
+                        whitespace: "${label}ä¸èƒ½ä¸ºç©ºå­—ç¬¦",
                         date: {
-                            format: "${label}日期格式无效",
-                            parse: "${label}不能转换为日期",
-                            invalid: "${label}是一个无效日期"
+                            format: "${label}æ—¥æœŸæ ¼å¼æ— æ•ˆ",
+                            parse: "${label}ä¸èƒ½è½¬æ¢ä¸ºæ—¥æœŸ",
+                            invalid: "${label}æ˜¯ä¸€ä¸ªæ— æ•ˆæ—¥æœŸ"
                         },
                         types: {
                             string: l,
@@ -5945,34 +5945,34 @@ Sentry.init({...});
                             hex: l
                         },
                         string: {
-                            len: "${label}须为${len}个字符",
-                            min: "${label}最少${min}个字符",
-                            max: "${label}最多${max}个字符",
-                            range: "${label}须在${min}-${max}字符之间"
+                            len: "${label}é¡»ä¸º${len}ä¸ªå­—ç¬¦",
+                            min: "${label}æœ€å°‘${min}ä¸ªå­—ç¬¦",
+                            max: "${label}æœ€å¤š${max}ä¸ªå­—ç¬¦",
+                            range: "${label}é¡»åœ¨${min}-${max}å­—ç¬¦ä¹‹é—´"
                         },
                         number: {
-                            len: "${label}必须等于${len}",
-                            min: "${label}最小值为${min}",
-                            max: "${label}最大值为${max}",
-                            range: "${label}须在${min}-${max}之间"
+                            len: "${label}å¿…é¡»ç­‰äºŽ${len}",
+                            min: "${label}æœ€å°å€¼ä¸º${min}",
+                            max: "${label}æœ€å¤§å€¼ä¸º${max}",
+                            range: "${label}é¡»åœ¨${min}-${max}ä¹‹é—´"
                         },
                         array: {
-                            len: "须为${len}个${label}",
-                            min: "最少${min}个${label}",
-                            max: "最多${max}个${label}",
-                            range: "${label}数量须在${min}-${max}之间"
+                            len: "é¡»ä¸º${len}ä¸ª${label}",
+                            min: "æœ€å°‘${min}ä¸ª${label}",
+                            max: "æœ€å¤š${max}ä¸ª${label}",
+                            range: "${label}æ•°é‡é¡»åœ¨${min}-${max}ä¹‹é—´"
                         },
-                        pattern: {mismatch: "${label}与模式不匹配${pattern}"}
+                        pattern: {mismatch: "${label}ä¸Žæ¨¡å¼ä¸åŒ¹é…${pattern}"}
                     }
                 },
-                Image: {preview: "预览"}
+                Image: {preview: "é¢„è§ˆ"}
             };
         t.Z = c
     }, 15704: function (e, t) {
         "use strict";
         Object.defineProperty(t, "__esModule", {value: !0}), t.default = void 0, t.default = {
-            placeholder: "请选择时间",
-            rangePlaceholder: ["开始时间", "结束时间"]
+            placeholder: "è¯·é€‰æ‹©æ—¶é—´",
+            rangePlaceholder: ["å¼€å§‹æ—¶é—´", "ç»“æŸæ—¶é—´"]
         }
     }, 93771: function (e, t, n) {
         "use strict";
@@ -7580,7 +7580,7 @@ Sentry.init({...});
                 return e = e.replace(/\+/g, " "), decodeURIComponent(e)
             } catch (t) {
                 return function (e) {
-                    for (var t = {"%FE%FF": "��", "%FF%FE": "��"}, i = r.exec(e); i;) {
+                    for (var t = {"%FE%FF": "ï¿½ï¿½", "%FF%FE": "ï¿½ï¿½"}, i = r.exec(e); i;) {
                         try {
                             t[i[0]] = decodeURIComponent(i[0])
                         } catch (e) {
@@ -7605,7 +7605,7 @@ Sentry.init({...});
                         }
                         i = r.exec(e)
                     }
-                    t["%C2"] = "�";
+                    t["%C2"] = "ï¿½";
                     for (var a = Object.keys(t), s = 0; s < a.length; s++) {
                         var l = a[s];
                         e = e.replace(RegExp(l, "g"), t[l])
@@ -8395,8 +8395,8 @@ Sentry.init({...});
                 "&#169;": "\xa9",
                 "&reg;": "\xae",
                 "&#174;": "\xae",
-                "&hellip;": "…",
-                "&#8230;": "…",
+                "&hellip;": "â€¦",
+                "&#8230;": "â€¦",
                 "&#x2F;": "/",
                 "&#47;": "/"
             }, g = function (e) {
@@ -12836,7 +12836,7 @@ Sentry.init({...});
                         style: {marginTop: "var(--rem-40)"}, beforeClick: function () {
                             S && k && "zh" === P && (0, y.Px)("zh-HK"), (0, b.Ds)("hongkongsite_click", {
                                 hk_official_url: window.location.href,
-                                hk_official_button_name: "联络我们"
+                                hk_official_button_name: "è”ç»œæˆ‘ä»¬"
                             })
                         }, isMain: !S, source: S ? w.lB.HOME_LANDING : ""
                     })]
@@ -13000,7 +13000,7 @@ Sentry.init({...});
                     a = function () {
                         (0, b.Ds)("hongkongsite_click", {
                             hk_official_url: window.location.href,
-                            hk_official_button_name: "联络我们"
+                            hk_official_button_name: "è”ç»œæˆ‘ä»¬"
                         })
                     };
                 return (0, u.jsxs)("section", {
@@ -13019,9 +13019,9 @@ Sentry.init({...});
                 })
             }, W = n(2962), K = n(87449), G = function () {
                 var e = (0, B.$G)().t,
-                    t = "common-document-title" !== e("common-document-title") ? e("common-document-title") : "貿易匯款至内地，必備XTransfer",
-                    n = "common-document-description" !== e("common-document-description") ? e("common-document-description") : "XTransfer作为一站式外贸企业跨境金融和风控服务公司，为从事跨境电商B2B的中小微出口企业提供跨境收款平台服务。XTransfer提供的外贸收款方式，让中小微企业享受到和大型跨国集团企业同等水平的跨境金融服务！",
-                    r = "common-document-keywords" !== e("common-document-keywords") ? e("common-document-keywords") : "跨境电商B2B收款平台,企业外贸收款方式,XTransfer";
+                    t = "common-document-title" !== e("common-document-title") ? e("common-document-title") : "è²¿æ˜“åŒ¯æ¬¾è‡³å†…åœ°ï¼Œå¿…å‚™XTransfer",
+                    n = "common-document-description" !== e("common-document-description") ? e("common-document-description") : "XTransferä½œä¸ºä¸€ç«™å¼å¤–è´¸ä¼ä¸šè·¨å¢ƒé‡‘èžå’Œé£ŽæŽ§æœåŠ¡å…¬å¸ï¼Œä¸ºä»Žäº‹è·¨å¢ƒç”µå•†B2Bçš„ä¸­å°å¾®å‡ºå£ä¼ä¸šæä¾›è·¨å¢ƒæ”¶æ¬¾å¹³å°æœåŠ¡ã€‚XTransferæä¾›çš„å¤–è´¸æ”¶æ¬¾æ–¹å¼ï¼Œè®©ä¸­å°å¾®ä¼ä¸šäº«å—åˆ°å’Œå¤§åž‹è·¨å›½é›†å›¢ä¼ä¸šåŒç­‰æ°´å¹³çš„è·¨å¢ƒé‡‘èžæœåŠ¡ï¼",
+                    r = "common-document-keywords" !== e("common-document-keywords") ? e("common-document-keywords") : "è·¨å¢ƒç”µå•†B2Bæ”¶æ¬¾å¹³å°,ä¼ä¸šå¤–è´¸æ”¶æ¬¾æ–¹å¼,XTransfer";
                 return (0, u.jsx)(W.lX, {
                     title: t,
                     description: n,
@@ -13796,50 +13796,50 @@ Sentry.init({...});
                 icon: f.J_
             }, {value: c.Zalo, label: c.Zalo, icon: f.Ae}, {value: c.Imo, label: c.Imo, icon: f.gc}],
             x = {"zh-tw": "zh-hk", "zh-hk": "zh-hk", en: "en"}, w = [{
-                area: "香港",
+                area: "é¦™æ¸¯",
                 icon: "https://static.xtransfer.com/boss/static/x-hongkong-1_c3c3a93352d81e54.png",
                 telephone: "+852 38533886",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "越南",
+                area: "è¶Šå—",
                 icon: "https://static.xtransfer.com/boss/static/x-vietnam-1_0d6abb978bf29bac.png",
                 telephone: "+84 2471097248",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "墨西哥",
+                area: "å¢¨è¥¿å“¥",
                 icon: "https://static.xtransfer.com/boss/static/x-mexico-1_c9b3f501b42691b0.png",
                 telephone: "+52 5588973118",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "泰國",
+                area: "æ³°åœ‹",
                 icon: "https://static.xtransfer.com/boss/static/x-thailand-1_ebf23aa55c8b9135.png",
                 telephone: "+66 977831739",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "巴西",
+                area: "å·´è¥¿",
                 icon: "https://static.xtransfer.com/boss/static/x-brazil-1_ab1f07035cfbd329.png",
                 telephone: "+55 1133517088",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "哥倫比亞",
+                area: "å“¥å€«æ¯”äºž",
                 icon: "https://static.xtransfer.com/boss/static/x-columbia-1_23ddf512238e7e18.png",
                 telephone: "+57 6075895050",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "以色列",
+                area: "ä»¥è‰²åˆ—",
                 icon: "https://static.xtransfer.com/boss/static/x-israel-1_9bf477b51e4e0790.png",
                 telephone: "+972 33760505",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "奈及利亞",
+                area: "å¥ˆåŠåˆ©äºž",
                 icon: "https://static.xtransfer.com/boss/static/x-nigeria-1_a855703722465508.png",
                 telephone: "+234 7001238640",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }, {
-                area: "南非",
+                area: "å—éž",
                 icon: "https://static.xtransfer.com/boss/static/x-southafrica-1_617d60199c891d53.png",
                 telephone: "+27 125344247",
-                time: "9:00 - 21:00 GMT+8<br/>星期一至星期日"
+                time: "9:00 - 21:00 GMT+8<br/>æ˜ŸæœŸä¸€è‡³æ˜ŸæœŸæ—¥"
             }], _ = {
                 "zh-HK": w,
                 en: [{
@@ -14358,7 +14358,7 @@ Sentry.init({...});
 
         var y = {
             avgTTI: function () {
-                console.error("未成功初始化,请检查CommonProvider")
+                console.error("æœªæˆåŠŸåˆå§‹åŒ–,è¯·æ£€æŸ¥CommonProvider")
             }
         }, b = a().createContext({}), x = a().createContext(y), w = n(4636), _ = n(31973), E = function () {
             for (var e = arguments.length, t = Array(e), n = 0; n < e; n++) t[n] = arguments[n];
@@ -14457,15 +14457,15 @@ Sentry.init({...});
                 return {
                     hk: {
                         key: "hk-default",
-                        label: "中国香港",
+                        label: "ä¸­å›½é¦™æ¸¯",
                         icon: (0, h.jsx)("img", {
                             src: c.rx,
-                            alt: "中国香港",
+                            alt: "ä¸­å›½é¦™æ¸¯",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
                             key: "hk-tw",
-                            label: "繁體",
+                            label: "ç¹é«”",
                             host: t,
                             href: "https://".concat(t, "/zh-HK/landing"),
                             locale: l.Go["zh-HK"],
@@ -14499,22 +14499,22 @@ Sentry.init({...});
                 return {
                     cn: {
                         key: "cn-default",
-                        label: "中国",
+                        label: "ä¸­å›½",
                         icon: (0, h.jsx)("img", {
                             src: c.RG,
-                            alt: "中国",
+                            alt: "ä¸­å›½",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
                             key: "cn-zh",
-                            label: "简体",
+                            label: "ç®€ä½“",
                             host: n,
                             href: "https://".concat(n, "?lang=zh"),
                             locale: l.Go.zh,
                             parent: "cn-default"
                         }, {
                             key: "cn-ja",
-                            label: "日本语",
+                            label: "æ—¥æœ¬è¯­",
                             host: n,
                             href: "https://".concat(n, "?lang=ja"),
                             locale: l.Go.ja,
@@ -14530,15 +14530,15 @@ Sentry.init({...});
                     },
                     hk: {
                         key: "hk-default",
-                        label: "中國香港",
+                        label: "ä¸­åœ‹é¦™æ¸¯",
                         icon: (0, h.jsx)("img", {
                             src: c.rx,
-                            alt: "中國香港",
+                            alt: "ä¸­åœ‹é¦™æ¸¯",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
                             key: "hk-tw",
-                            label: "繁體",
+                            label: "ç¹é«”",
                             host: r,
                             href: "https://".concat(r, "/zh-HK"),
                             locale: l.Go["zh-HK"],
@@ -14595,10 +14595,10 @@ Sentry.init({...});
                     },
                     cn: {
                         key: "cn-default",
-                        label: "中国",
+                        label: "ä¸­å›½",
                         icon: (0, h.jsx)("img", {
                             src: c.Az,
-                            alt: "中国",
+                            alt: "ä¸­å›½",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: t,
@@ -14607,10 +14607,10 @@ Sentry.init({...});
                     },
                     hk: {
                         key: "hk-default",
-                        label: "中國香港",
+                        label: "ä¸­åœ‹é¦™æ¸¯",
                         icon: (0, h.jsx)("img", {
                             src: c.EB,
-                            alt: "中國香港",
+                            alt: "ä¸­åœ‹é¦™æ¸¯",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: n,
@@ -14619,10 +14619,10 @@ Sentry.init({...});
                     },
                     jp: {
                         key: "cn-ja",
-                        label: "日本",
+                        label: "æ—¥æœ¬",
                         icon: (0, h.jsx)("img", {
                             src: c.A9,
-                            alt: "中國香港",
+                            alt: "ä¸­åœ‹é¦™æ¸¯",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: t,
@@ -14658,7 +14658,7 @@ Sentry.init({...});
         l.Go.zh;
         var y = {
             setLanguage: function () {
-                console.error("未成功初始化,请检查LanguageProvider")
+                console.error("æœªæˆåŠŸåˆå§‹åŒ–,è¯·æ£€æŸ¥LanguageProvider")
             }
         }, b = i().createContext(y), x = function () {
             var e, t = (0, a.useRouter)().locale, n = (0, d.qM)(), o = n.siteMap, s = n.host,
@@ -14872,7 +14872,7 @@ Sentry.init({...});
             (0, r.useEffect)(function () {
                 var n = function (e) {
                     var n = P(t.current), r = P(e),
-                        i = "路径从 ".concat(t.current, " 跳转到 ").concat(e, " ，").concat(n !== r ? "有" : "没有", "search参数变化");
+                        i = "è·¯å¾„ä»Ž ".concat(t.current, " è·³è½¬åˆ° ").concat(e, " ï¼Œ").concat(n !== r ? "æœ‰" : "æ²¡æœ‰", "searchå‚æ•°å˜åŒ–");
                     n !== r && (0, s.tz)(Error(i)), t.current = e
                 };
                 return e.events.on("routeChangeComplete", n), function () {
@@ -15078,7 +15078,7 @@ Sentry.init({...});
                                 beforeClick: function () {
                                     o && i && "zh" === l && (0, f.Px)("zh-HK"), (0, N.Ds)("hongkongsite_click", {
                                         hk_official_url: window.location.href,
-                                        hk_official_button_name: "联络我们"
+                                        hk_official_button_name: "è”ç»œæˆ‘ä»¬"
                                     })
                                 },
                                 isMain: !o,
@@ -16202,7 +16202,7 @@ Sentry.init({...});
                     a = e.children, l = e.closable, c = e.closeIcon, u = e.extra, f = e.title, d = e.fullScreenable,
                     p = void 0 !== d && d, h = e.fullScreen, m = e.globalFullScreenable, g = void 0 !== m && m,
                     v = e.onFullScrrenChange, y = e.backable, b = e.showFooter, x = void 0 === b || b, w = e.okText,
-                    _ = void 0 === w ? "确定" : w, E = e.cancelText, O = void 0 === E ? "取消" : E, C = e.okType,
+                    _ = void 0 === w ? "ç¡®å®š" : w, E = e.cancelText, O = void 0 === E ? "å–æ¶ˆ" : E, C = e.okType,
                     S = void 0 === C ? "primary" : C, k = e.okButtonProps, P = e.cancelButtonProps, T = e.onConfirm,
                     j = e.onCancel, N = e.onClose, M = e.message, Z = e.size, A = void 0 === Z ? "small" : Z, R = e.width,
                     I = e.className, L = e.zIndex,
@@ -16327,7 +16327,7 @@ Sentry.init({...});
                                 return w({activeKey: e})
                             },
                             children: [(t = (0, W.Z)(x.curLocale, 1)[0], (0, S.jsx)(tP, {
-                                tab: (null == t ? void 0 : t.label) || "请选择",
+                                tab: (null == t ? void 0 : t.label) || "è¯·é€‰æ‹©",
                                 children: (0, S.jsx)("ul", {
                                     className: tS()["location-ul"],
                                     children: Object.values(i).map(function (e) {
@@ -16348,7 +16348,7 @@ Sentry.init({...});
                             }, "1")), function () {
                                 var e = (0, W.Z)(x.curLocale, 2), t = e[0], n = e[1];
                                 if (null != t && null !== (r = t.children) && void 0 !== r && r.length) {
-                                    var r, i, a = (null == n ? void 0 : n.label) || "请选择";
+                                    var r, i, a = (null == n ? void 0 : n.label) || "è¯·é€‰æ‹©";
                                     return (0, S.jsx)(tP, {
                                         tab: a,
                                         children: (0, S.jsx)("ul", {
@@ -21734,70 +21734,70 @@ Error:`, t)
                     switch (e) {
                         case 400:
                         case 405:
-                            t = "参数错误";
+                            t = "å‚æ•°é”™è¯¯";
                             break;
                         case 401:
-                            t = "未授权，请重新登录";
+                            t = "æœªæŽˆæƒï¼Œè¯·é‡æ–°ç™»å½•";
                             break;
                         case 403:
-                            t = "您没有此页面/操作的权限~";
+                            t = "æ‚¨æ²¡æœ‰æ­¤é¡µé¢/æ“ä½œçš„æƒé™~";
                             break;
                         case 404:
-                            t = "暂无匹配内容呢～";
+                            t = "æš‚æ— åŒ¹é…å†…å®¹å‘¢ï½ž";
                             break;
                         case 408:
-                            t = "页面超时，请重新提交";
+                            t = "é¡µé¢è¶…æ—¶ï¼Œè¯·é‡æ–°æäº¤";
                             break;
                         case 500:
-                            t = "内部服务错误";
+                            t = "å†…éƒ¨æœåŠ¡é”™è¯¯";
                             break;
                         default:
-                            t = "网络错误，请检查网络设置或稍后再试 --".concat(e)
+                            t = "ç½‘ç»œé”™è¯¯ï¼Œè¯·æ£€æŸ¥ç½‘ç»œè®¾ç½®æˆ–ç¨åŽå†è¯• --".concat(e)
                     }
                     n = e.toString().startsWith("4") ? "404" : "500"
-                } else t = "无法连接到服务器！";
+                } else t = "æ— æ³•è¿žæŽ¥åˆ°æœåŠ¡å™¨ï¼";
                 return {errMsg: t, errStatus: n}
             }, g = {
-                API_TIMEOUT: "网络超时，请重试",
-                FORBIDDEN: "验证码发送次数过多，请稍后再试",
-                VCODE_FREQUENT_1DAY: "获取验证码次数过多，请24小时之后再试",
-                VCODE_FREQUENT_1MIN: "发送过于频繁，请稍后再试",
-                INVALID_FOR_XSS: "包含非法字符",
-                EMOJI_NOT_SUPPORT: "请勿输入表情符号",
-                BAD_REQUEST: "参数错误",
-                PARAMS_ERROR: "参数错误",
-                INTERNAL_SERVER_ERROR: "内部服务错误",
-                "Failed to fetch": "网络错误，请检查网络设置或稍后再试",
-                ATTACHMENT_UPLOAD_ERROR: "附件上传失败（服务器原因）",
-                ACCOUNT_FROZEN_ERROR: "您的账号已被冻结，若有疑问，请联系客服",
-                NEED_SLIDER_VERIFY: "请先进行滑块验证",
-                MSG_CODE_RETRY_OVER_SIZE_ERROR: "验证码已失效，请重新发送",
-                MSG_CODE_EXPIRED: "验证码已失效，请重新发送",
-                PERMISSION_LIMIT_NOT_PRIVILEGE: "您没有此页面/操作的权限~",
-                PASSWORD_ERROR: "交易密码错误",
-                PASSWORD_LOCK: "您的交易密码连续输错5次，请找回交易密码",
-                PASSWORD_RESET: "交易密码存在风险，请重置",
-                PASSWORD_ERROR_1: "交易密码错误，还剩1次尝试机会",
-                PASSWORD_ERROR_2: "交易密码错误，还剩2次尝试机会",
-                PASSWORD_ERROR_3: "交易密码错误，还剩3次尝试机会",
-                PASSWORD_ERROR_4: "交易密码错误，还剩4次尝试机会",
-                PASSWORD_NOT_EXIST: "交易密码尚未设置",
-                MFA_TOKEN_EXPIRED: "页面超时，请重新提交",
-                SWIFT_CODE_REGION_ERROR: "swiftCode有误",
-                UNSUPPORTED_FLOW_ID: "页面超时，请重新提交",
-                FUND_FREEZE_LIMITED_ERR: "账户可用余额不足",
-                PLAY_ID_ABSENT: "网络异常，请稍后重试",
-                REPLAY_ATTACK_ERROR: "网络异常，请稍后重试",
-                NO_DATA: "没有满足查询条件的导出数据",
-                WITHDRAW_CLAIM_AMOUNT_INCORRECT: "抱歉，出现未知错误，请联系客服~",
-                Unauthorized: "您的登录权限已过期，请重新登录",
-                UNAUTHORIZED: "您的登录权限已过期，请重新登录",
-                CANNOT_DELETE: "无法进行删除操作",
-                VCODE_ERROR: "验证码错误",
-                ACQUIRING_PAY_PROCESSING: "支付处理中",
-                ACQUIRING_PAY_BALANCE_NOT_ENOUGH: "账户可用余额不足，订单待支付",
-                DEBT_ORDER_EXIST: "当前有欠费单未缴清，请缴清欠费后重新支付订单",
-                "Too Many Requests": "请求过多"
+                API_TIMEOUT: "ç½‘ç»œè¶…æ—¶ï¼Œè¯·é‡è¯•",
+                FORBIDDEN: "éªŒè¯ç å‘é€æ¬¡æ•°è¿‡å¤šï¼Œè¯·ç¨åŽå†è¯•",
+                VCODE_FREQUENT_1DAY: "èŽ·å–éªŒè¯ç æ¬¡æ•°è¿‡å¤šï¼Œè¯·24å°æ—¶ä¹‹åŽå†è¯•",
+                VCODE_FREQUENT_1MIN: "å‘é€è¿‡äºŽé¢‘ç¹ï¼Œè¯·ç¨åŽå†è¯•",
+                INVALID_FOR_XSS: "åŒ…å«éžæ³•å­—ç¬¦",
+                EMOJI_NOT_SUPPORT: "è¯·å‹¿è¾“å…¥è¡¨æƒ…ç¬¦å·",
+                BAD_REQUEST: "å‚æ•°é”™è¯¯",
+                PARAMS_ERROR: "å‚æ•°é”™è¯¯",
+                INTERNAL_SERVER_ERROR: "å†…éƒ¨æœåŠ¡é”™è¯¯",
+                "Failed to fetch": "ç½‘ç»œé”™è¯¯ï¼Œè¯·æ£€æŸ¥ç½‘ç»œè®¾ç½®æˆ–ç¨åŽå†è¯•",
+                ATTACHMENT_UPLOAD_ERROR: "é™„ä»¶ä¸Šä¼ å¤±è´¥ï¼ˆæœåŠ¡å™¨åŽŸå› ï¼‰",
+                ACCOUNT_FROZEN_ERROR: "æ‚¨çš„è´¦å·å·²è¢«å†»ç»“ï¼Œè‹¥æœ‰ç–‘é—®ï¼Œè¯·è”ç³»å®¢æœ",
+                NEED_SLIDER_VERIFY: "è¯·å…ˆè¿›è¡Œæ»‘å—éªŒè¯",
+                MSG_CODE_RETRY_OVER_SIZE_ERROR: "éªŒè¯ç å·²å¤±æ•ˆï¼Œè¯·é‡æ–°å‘é€",
+                MSG_CODE_EXPIRED: "éªŒè¯ç å·²å¤±æ•ˆï¼Œè¯·é‡æ–°å‘é€",
+                PERMISSION_LIMIT_NOT_PRIVILEGE: "æ‚¨æ²¡æœ‰æ­¤é¡µé¢/æ“ä½œçš„æƒé™~",
+                PASSWORD_ERROR: "äº¤æ˜“å¯†ç é”™è¯¯",
+                PASSWORD_LOCK: "æ‚¨çš„äº¤æ˜“å¯†ç è¿žç»­è¾“é”™5æ¬¡ï¼Œè¯·æ‰¾å›žäº¤æ˜“å¯†ç ",
+                PASSWORD_RESET: "äº¤æ˜“å¯†ç å­˜åœ¨é£Žé™©ï¼Œè¯·é‡ç½®",
+                PASSWORD_ERROR_1: "äº¤æ˜“å¯†ç é”™è¯¯ï¼Œè¿˜å‰©1æ¬¡å°è¯•æœºä¼š",
+                PASSWORD_ERROR_2: "äº¤æ˜“å¯†ç é”™è¯¯ï¼Œè¿˜å‰©2æ¬¡å°è¯•æœºä¼š",
+                PASSWORD_ERROR_3: "äº¤æ˜“å¯†ç é”™è¯¯ï¼Œè¿˜å‰©3æ¬¡å°è¯•æœºä¼š",
+                PASSWORD_ERROR_4: "äº¤æ˜“å¯†ç é”™è¯¯ï¼Œè¿˜å‰©4æ¬¡å°è¯•æœºä¼š",
+                PASSWORD_NOT_EXIST: "äº¤æ˜“å¯†ç å°šæœªè®¾ç½®",
+                MFA_TOKEN_EXPIRED: "é¡µé¢è¶…æ—¶ï¼Œè¯·é‡æ–°æäº¤",
+                SWIFT_CODE_REGION_ERROR: "swiftCodeæœ‰è¯¯",
+                UNSUPPORTED_FLOW_ID: "é¡µé¢è¶…æ—¶ï¼Œè¯·é‡æ–°æäº¤",
+                FUND_FREEZE_LIMITED_ERR: "è´¦æˆ·å¯ç”¨ä½™é¢ä¸è¶³",
+                PLAY_ID_ABSENT: "ç½‘ç»œå¼‚å¸¸ï¼Œè¯·ç¨åŽé‡è¯•",
+                REPLAY_ATTACK_ERROR: "ç½‘ç»œå¼‚å¸¸ï¼Œè¯·ç¨åŽé‡è¯•",
+                NO_DATA: "æ²¡æœ‰æ»¡è¶³æŸ¥è¯¢æ¡ä»¶çš„å¯¼å‡ºæ•°æ®",
+                WITHDRAW_CLAIM_AMOUNT_INCORRECT: "æŠ±æ­‰ï¼Œå‡ºçŽ°æœªçŸ¥é”™è¯¯ï¼Œè¯·è”ç³»å®¢æœ~",
+                Unauthorized: "æ‚¨çš„ç™»å½•æƒé™å·²è¿‡æœŸï¼Œè¯·é‡æ–°ç™»å½•",
+                UNAUTHORIZED: "æ‚¨çš„ç™»å½•æƒé™å·²è¿‡æœŸï¼Œè¯·é‡æ–°ç™»å½•",
+                CANNOT_DELETE: "æ— æ³•è¿›è¡Œåˆ é™¤æ“ä½œ",
+                VCODE_ERROR: "éªŒè¯ç é”™è¯¯",
+                ACQUIRING_PAY_PROCESSING: "æ”¯ä»˜å¤„ç†ä¸­",
+                ACQUIRING_PAY_BALANCE_NOT_ENOUGH: "è´¦æˆ·å¯ç”¨ä½™é¢ä¸è¶³ï¼Œè®¢å•å¾…æ”¯ä»˜",
+                DEBT_ORDER_EXIST: "å½“å‰æœ‰æ¬ è´¹å•æœªç¼´æ¸…ï¼Œè¯·ç¼´æ¸…æ¬ è´¹åŽé‡æ–°æ”¯ä»˜è®¢å•",
+                "Too Many Requests": "è¯·æ±‚è¿‡å¤š"
             }, v = n(83454);
 
         function y(e, t) {
@@ -22080,7 +22080,7 @@ Error:`, t)
         };
 
         function X(e) {
-            return e ? e.replace(/<\/?.+?\/?>/gi, "").replace(/&nbsp;/g, " ").replace(/&ldquo;/g, "“").replace(/&rdquo;/g, "”").replace(/&hellip;/g, "...").replace(/&mdash;/g, "——").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&") : ""
+            return e ? e.replace(/<\/?.+?\/?>/gi, "").replace(/&nbsp;/g, " ").replace(/&ldquo;/g, "â€œ").replace(/&rdquo;/g, "â€").replace(/&hellip;/g, "...").replace(/&mdash;/g, "â€”â€”").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/&amp;/g, "&") : ""
         }
 
         function Y(e) {
@@ -22118,11 +22118,11 @@ Error:`, t)
             try {
                 var n, i, o = document.createElement("input");
                 o.setAttribute("id", "@@input"), o.value = e, document.getElementsByTagName("body")[0].appendChild(o), null === (n = document.getElementById("@@input")) || void 0 === n || n.select(), document.execCommand("copy"), null === (i = document.getElementById("@@input")) || void 0 === i || i.remove(), r.v0.success({
-                    content: t || "鏈接已復制成功",
+                    content: t || "éˆæŽ¥å·²å¾©åˆ¶æˆåŠŸ",
                     style: {marginTop: "141px"}
                 })
             } catch (e) {
-                r.v0.error("復制失敗")
+                r.v0.error("å¾©åˆ¶å¤±æ•—")
             }
         };
 
@@ -22190,7 +22190,7 @@ Error:`, t)
                 return a || i.Go["zh-HK"]
             }
         }, s = function (e, t, n) {
-            if (!t || !n) return {label: "默认语言", key: "cn-default"};
+            if (!t || !n) return {label: "é»˜è®¤è¯­è¨€", key: "cn-default"};
             for (var i = 0, o = Object.entries(e); i < o.length; i++) {
                 var a = (0, r.Z)(o[i], 2)[1];
                 if ("host" in a && a.host === t && a.locale === n) return a;
@@ -22201,17 +22201,17 @@ Error:`, t)
                     if (s) return s
                 }
             }
-            return {label: "默认语言", key: "cn-default"}
+            return {label: "é»˜è®¤è¯­è¨€", key: "cn-default"}
         }, l = function (e, t) {
             var n = e.locale, r = e.host;
             if (n && r) {
                 var o = "", a = "";
-                return o = t.isUS ? "USA" : t.isUK ? "UK" : t.isHK ? "中國香港" : "中国", a = n === i.Go.en ? "EN" : n === i.Go["zh-HK"] ? "繁体" : "简体", "".concat(o, "(").concat(a, ")")
+                return o = t.isUS ? "USA" : t.isUK ? "UK" : t.isHK ? "ä¸­åœ‹é¦™æ¸¯" : "ä¸­å›½", a = n === i.Go.en ? "EN" : n === i.Go["zh-HK"] ? "ç¹ä½“" : "ç®€ä½“", "".concat(o, "(").concat(a, ")")
             }
-            return "中國香港(繁體)"
+            return "ä¸­åœ‹é¦™æ¸¯(ç¹é«”)"
         }, c = function (e, t) {
             var n = e.locale, r = e.host;
-            return n && r ? t.isUS ? "United States" : t.isUK ? "United Kingdom" : t.isHK ? n === i.Go.en ? "Global  (English)" : "中國香港" : i.Go.ja ? "日本" : "中国" : "中國香港(繁體)"
+            return n && r ? t.isUS ? "United States" : t.isUK ? "United Kingdom" : t.isHK ? n === i.Go.en ? "Global  (English)" : "ä¸­åœ‹é¦™æ¸¯" : i.Go.ja ? "æ—¥æœ¬" : "ä¸­å›½" : "ä¸­åœ‹é¦™æ¸¯(ç¹é«”)"
         }, u = function (e, t) {
             if ("en" === t || e.startsWith("/t")) return e;
             var n = t || "";
@@ -22337,10 +22337,10 @@ Error:`, t)
             var r, i = function (e, t) {
                 if (e) {
                     if ("string" == typeof e) return Error(e);
-                    if ("object" == typeof e && "status" in e && "message" in e) return Error("api or function：".concat(t.filename, "，params：").concat(JSON.stringify(t.params || {}), "，message：").concat(JSON.stringify(e.message), "，status：").concat(e.status));
+                    if ("object" == typeof e && "status" in e && "message" in e) return Error("api or functionï¼š".concat(t.filename, "ï¼Œparamsï¼š").concat(JSON.stringify(t.params || {}), "ï¼Œmessageï¼š").concat(JSON.stringify(e.message), "ï¼Œstatusï¼š").concat(e.status));
                     if ((0, d.Z)(e)) return e
                 }
-                return Error("trackError：api or function：".concat(t.filename, "，params：").concat(JSON.stringify(t.params || {})))
+                return Error("trackErrorï¼šapi or functionï¼š".concat(t.filename, "ï¼Œparamsï¼š").concat(JSON.stringify(t.params || {})))
             }(e, t), o = t || {}, a = o.filename, l = o.params;
             p.Tb(i, function (e) {
                 return e.setExtra("params", l), e.setTags({feature: a, errorLevel: n || s.p2}), e
@@ -22409,7 +22409,7 @@ Error:`, t)
                                 },
                                 customer_id: "",
                                 firm_id: "",
-                                customer_type: "XT对客业务线",
+                                customer_type: "XTå¯¹å®¢ä¸šåŠ¡çº¿",
                                 page_name: function () {
                                     var e;
                                     return s.jU ? null === (e = window.location) || void 0 === e ? void 0 : e.pathname : ""
@@ -23260,14 +23260,14 @@ Error:`, t)
         }
     }, 68031: function (e) {
         e.exports = {
-            // root: "index_root__cETh0",
-            // dropDown: "index_dropDown___OsHv",
-            // path: "index_path__ApJFC",
-            // label: "index_label__epQIt",
-            // itemWrapper: "index_itemWrapper__Ui_nY",
-            // curItemLabel: "index_curItemLabel___2YmD",
-            // iconfont: "index_iconfont__50ndN",
-            // newDropdown: "index_newDropdown__mJUUV"
+            root: "",
+            dropDown: "index_dropDown___OsHv",
+            path: "index_path__ApJFC",
+            label: "index_label__epQIt",
+            itemWrapper: "index_itemWrapper__Ui_nY",
+            curItemLabel: "index_curItemLabel___2YmD",
+            iconfont: "index_iconfont__50ndN",
+            newDropdown: "index_newDropdown__mJUUV"
         }
     }, 36675: function (e) {
         e.exports = {
@@ -27931,47 +27931,47 @@ Error:`, t)
     }, 74219: function (e, t) {
         "use strict";
         Object.defineProperty(t, "__esModule", {value: !0}), t.default = void 0, t.default = {
-            items_per_page: "条/页",
-            jump_to: "跳至",
-            jump_to_confirm: "确定",
-            page: "页",
-            prev_page: "上一页",
-            next_page: "下一页",
-            prev_5: "向前 5 页",
-            next_5: "向后 5 页",
-            prev_3: "向前 3 页",
-            next_3: "向后 3 页",
-            page_size: "页码"
+            items_per_page: "æ¡/é¡µ",
+            jump_to: "è·³è‡³",
+            jump_to_confirm: "ç¡®å®š",
+            page: "é¡µ",
+            prev_page: "ä¸Šä¸€é¡µ",
+            next_page: "ä¸‹ä¸€é¡µ",
+            prev_5: "å‘å‰ 5 é¡µ",
+            next_5: "å‘åŽ 5 é¡µ",
+            prev_3: "å‘å‰ 3 é¡µ",
+            next_3: "å‘åŽ 3 é¡µ",
+            page_size: "é¡µç "
         }
     }, 85369: function (e, t) {
         "use strict";
         Object.defineProperty(t, "__esModule", {value: !0}), t.default = void 0, t.default = {
             locale: "zh_CN",
-            today: "今天",
-            now: "此刻",
-            backToToday: "返回今天",
-            ok: "确定",
-            timeSelect: "选择时间",
-            dateSelect: "选择日期",
-            weekSelect: "选择周",
-            clear: "清除",
-            month: "月",
-            year: "年",
-            previousMonth: "上个月 (翻页上键)",
-            nextMonth: "下个月 (翻页下键)",
-            monthSelect: "选择月份",
-            yearSelect: "选择年份",
-            decadeSelect: "选择年代",
-            yearFormat: "YYYY年",
-            dayFormat: "D日",
-            dateFormat: "YYYY年M月D日",
-            dateTimeFormat: "YYYY年M月D日 HH时mm分ss秒",
-            previousYear: "上一年 (Control键加左方向键)",
-            nextYear: "下一年 (Control键加右方向键)",
-            previousDecade: "上一年代",
-            nextDecade: "下一年代",
-            previousCentury: "上一世纪",
-            nextCentury: "下一世纪"
+            today: "ä»Šå¤©",
+            now: "æ­¤åˆ»",
+            backToToday: "è¿”å›žä»Šå¤©",
+            ok: "ç¡®å®š",
+            timeSelect: "é€‰æ‹©æ—¶é—´",
+            dateSelect: "é€‰æ‹©æ—¥æœŸ",
+            weekSelect: "é€‰æ‹©å‘¨",
+            clear: "æ¸…é™¤",
+            month: "æœˆ",
+            year: "å¹´",
+            previousMonth: "ä¸Šä¸ªæœˆ (ç¿»é¡µä¸Šé”®)",
+            nextMonth: "ä¸‹ä¸ªæœˆ (ç¿»é¡µä¸‹é”®)",
+            monthSelect: "é€‰æ‹©æœˆä»½",
+            yearSelect: "é€‰æ‹©å¹´ä»½",
+            decadeSelect: "é€‰æ‹©å¹´ä»£",
+            yearFormat: "YYYYå¹´",
+            dayFormat: "Dæ—¥",
+            dateFormat: "YYYYå¹´MæœˆDæ—¥",
+            dateTimeFormat: "YYYYå¹´MæœˆDæ—¥ HHæ—¶mmåˆ†ssç§’",
+            previousYear: "ä¸Šä¸€å¹´ (Controlé”®åŠ å·¦æ–¹å‘é”®)",
+            nextYear: "ä¸‹ä¸€å¹´ (Controlé”®åŠ å³æ–¹å‘é”®)",
+            previousDecade: "ä¸Šä¸€å¹´ä»£",
+            nextDecade: "ä¸‹ä¸€å¹´ä»£",
+            previousCentury: "ä¸Šä¸€ä¸–çºª",
+            nextCentury: "ä¸‹ä¸€ä¸–çºª"
         }
     }, 48555: function (e, t, n) {
         "use strict";
@@ -31921,76 +31921,76 @@ Error:`, t)
             }).apply(this, arguments)
         }, f = {
             "zh-cn": {
-                xtd_stepOfAll: "第$idx步，\xa0共$total步",
-                xtd_totalItems: "/共",
-                xtd_uploadAgain: "重新上传",
-                xtd_invalidFormat: "无效的文件格式",
-                xtd_or: "，或",
-                xtd_selected: "已选$num项",
-                xtd_next: "下一步",
-                xtd_prev: "上一步",
-                xtd_delete: "删除",
-                xtd_chooseFile: "选择文件",
-                xtd_saveFilter: "保存为筛选条件",
-                xtd_fileExceedNum: "最多支持上传$maxCount个附件",
-                xtd_confirm: "确定",
-                xtd_noSelect: "未选择内容",
-                xtd_myFile: "我的文件",
-                xtd_orDragHere: "，或将文件拖拽到此处",
-                xtd_iKnow: "我知道了",
-                xtd_totalNums: "共 $total 条",
-                xtd_dragHere: "拖拽至此处",
-                xtd_teamFile: "团队文件",
-                xtd_uploadFileExceedNum: "超过可上传附件上限",
-                xtd_uploadLocal: "本地上传",
-                xtd_dragFileHere: "将文件拖到此处",
-                xtd_back: "返回",
-                xtd_clickUpload: "点击上传",
-                xtd_clear: "清除",
-                xtd_uploadCloud: "云盘上传",
-                xtd_fileExceedSize: "文件大于$bytesSize，请压缩重新上传",
-                xtd_cancel: "取消",
-                xtd_finish: "完成",
-                xtd_noData: "暂无数据",
-                xtd_global_style_setting: "全局样式设置",
-                xtd_full_screen_style: "默认全屏样式",
-                xtd_half_screen_style: "默认侧边样式"
+                xtd_stepOfAll: "ç¬¬$idxæ­¥ï¼Œ\xa0å…±$totalæ­¥",
+                xtd_totalItems: "/å…±",
+                xtd_uploadAgain: "é‡æ–°ä¸Šä¼ ",
+                xtd_invalidFormat: "æ— æ•ˆçš„æ–‡ä»¶æ ¼å¼",
+                xtd_or: "ï¼Œæˆ–",
+                xtd_selected: "å·²é€‰$numé¡¹",
+                xtd_next: "ä¸‹ä¸€æ­¥",
+                xtd_prev: "ä¸Šä¸€æ­¥",
+                xtd_delete: "åˆ é™¤",
+                xtd_chooseFile: "é€‰æ‹©æ–‡ä»¶",
+                xtd_saveFilter: "ä¿å­˜ä¸ºç­›é€‰æ¡ä»¶",
+                xtd_fileExceedNum: "æœ€å¤šæ”¯æŒä¸Šä¼ $maxCountä¸ªé™„ä»¶",
+                xtd_confirm: "ç¡®å®š",
+                xtd_noSelect: "æœªé€‰æ‹©å†…å®¹",
+                xtd_myFile: "æˆ‘çš„æ–‡ä»¶",
+                xtd_orDragHere: "ï¼Œæˆ–å°†æ–‡ä»¶æ‹–æ‹½åˆ°æ­¤å¤„",
+                xtd_iKnow: "æˆ‘çŸ¥é“äº†",
+                xtd_totalNums: "å…± $total æ¡",
+                xtd_dragHere: "æ‹–æ‹½è‡³æ­¤å¤„",
+                xtd_teamFile: "å›¢é˜Ÿæ–‡ä»¶",
+                xtd_uploadFileExceedNum: "è¶…è¿‡å¯ä¸Šä¼ é™„ä»¶ä¸Šé™",
+                xtd_uploadLocal: "æœ¬åœ°ä¸Šä¼ ",
+                xtd_dragFileHere: "å°†æ–‡ä»¶æ‹–åˆ°æ­¤å¤„",
+                xtd_back: "è¿”å›ž",
+                xtd_clickUpload: "ç‚¹å‡»ä¸Šä¼ ",
+                xtd_clear: "æ¸…é™¤",
+                xtd_uploadCloud: "äº‘ç›˜ä¸Šä¼ ",
+                xtd_fileExceedSize: "æ–‡ä»¶å¤§äºŽ$bytesSizeï¼Œè¯·åŽ‹ç¼©é‡æ–°ä¸Šä¼ ",
+                xtd_cancel: "å–æ¶ˆ",
+                xtd_finish: "å®Œæˆ",
+                xtd_noData: "æš‚æ— æ•°æ®",
+                xtd_global_style_setting: "å…¨å±€æ ·å¼è®¾ç½®",
+                xtd_full_screen_style: "é»˜è®¤å…¨å±æ ·å¼",
+                xtd_half_screen_style: "é»˜è®¤ä¾§è¾¹æ ·å¼"
             },
             "zh-tw": {
-                xtd_stepOfAll: "第$idx步， 共$total步",
-                xtd_totalItems: "/共",
-                xtd_uploadAgain: "重新上傳",
-                xtd_invalidFormat: "無效的檔案格式",
-                xtd_or: "，或",
-                xtd_selected: "已選$num項",
-                xtd_next: "下一步",
-                xtd_prev: "上一步",
-                xtd_delete: "删除",
-                xtd_chooseFile: "選擇檔案",
-                xtd_saveFilter: "保存為篩選條件",
-                xtd_fileExceedNum: "最多支持上傳$maxCount個附件",
-                xtd_confirm: "確定",
-                xtd_noSelect: "未選擇內容",
-                xtd_myFile: "我的檔案",
-                xtd_orDragHere: "，或將檔案拖拽到此處",
-                xtd_iKnow: "我知道了",
-                xtd_totalNums: "共 $total 條",
-                xtd_dragHere: "拖拽至此處",
-                xtd_teamFile: "團隊檔案",
-                xtd_uploadFileExceedNum: "超過可上傳附件上限",
-                xtd_uploadLocal: "本地上傳",
-                xtd_dragFileHere: "將檔案拖到此處",
-                xtd_back: "返回",
-                xtd_clickUpload: "點擊上傳",
-                xtd_clear: "清除",
-                xtd_uploadCloud: "雲盤上傳",
-                xtd_fileExceedSize: "檔案大於$bytesSize，請壓縮重新上傳",
-                xtd_cancel: "取消",
-                xtd_finish: "完成",
-                xtd_noData: "無此資料",
-                xtd_global_style_setting: "全局樣式設置",
-                xtd_full_screen_style: "默認全屏樣式",
-                xtd_half_screen_style: "默認側邊樣式"
+                xtd_stepOfAll: "ç¬¬$idxæ­¥ï¼Œ å…±$totalæ­¥",
+                xtd_totalItems: "/å…±",
+                xtd_uploadAgain: "é‡æ–°ä¸Šå‚³",
+                xtd_invalidFormat: "ç„¡æ•ˆçš„æª”æ¡ˆæ ¼å¼",
+                xtd_or: "ï¼Œæˆ–",
+                xtd_selected: "å·²é¸$numé …",
+                xtd_next: "ä¸‹ä¸€æ­¥",
+                xtd_prev: "ä¸Šä¸€æ­¥",
+                xtd_delete: "åˆ é™¤",
+                xtd_chooseFile: "é¸æ“‡æª”æ¡ˆ",
+                xtd_saveFilter: "ä¿å­˜ç‚ºç¯©é¸æ¢ä»¶",
+                xtd_fileExceedNum: "æœ€å¤šæ”¯æŒä¸Šå‚³$maxCountå€‹é™„ä»¶",
+                xtd_confirm: "ç¢ºå®š",
+                xtd_noSelect: "æœªé¸æ“‡å…§å®¹",
+                xtd_myFile: "æˆ‘çš„æª”æ¡ˆ",
+                xtd_orDragHere: "ï¼Œæˆ–å°‡æª”æ¡ˆæ‹–æ‹½åˆ°æ­¤è™•",
+                xtd_iKnow: "æˆ‘çŸ¥é“äº†",
+                xtd_totalNums: "å…± $total æ¢",
+                xtd_dragHere: "æ‹–æ‹½è‡³æ­¤è™•",
+                xtd_teamFile: "åœ˜éšŠæª”æ¡ˆ",
+                xtd_uploadFileExceedNum: "è¶…éŽå¯ä¸Šå‚³é™„ä»¶ä¸Šé™",
+                xtd_uploadLocal: "æœ¬åœ°ä¸Šå‚³",
+                xtd_dragFileHere: "å°‡æª”æ¡ˆæ‹–åˆ°æ­¤è™•",
+                xtd_back: "è¿”å›ž",
+                xtd_clickUpload: "é»žæ“Šä¸Šå‚³",
+                xtd_clear: "æ¸…é™¤",
+                xtd_uploadCloud: "é›²ç›¤ä¸Šå‚³",
+                xtd_fileExceedSize: "æª”æ¡ˆå¤§æ–¼$bytesSizeï¼Œè«‹å£“ç¸®é‡æ–°ä¸Šå‚³",
+                xtd_cancel: "å–æ¶ˆ",
+                xtd_finish: "å®Œæˆ",
+                xtd_noData: "ç„¡æ­¤è³‡æ–™",
+                xtd_global_style_setting: "å…¨å±€æ¨£å¼è¨­ç½®",
+                xtd_full_screen_style: "é»˜èªå…¨å±æ¨£å¼",
+                xtd_half_screen_style: "é»˜èªå´é‚Šæ¨£å¼"
             },
             en: {
                 xtd_stepOfAll: "Step $idx of $total",
