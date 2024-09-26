@@ -774,7 +774,7 @@
         }), eG = function (e) {
             var t = e.open, n = e.close, l = e.beforeClick, r = (0, ep.qM)().hosts, i = r.official, a = r.hk, o = r.us,
                 c = r.uk;
-            return t ? (0, B.jsx)("div", {
+            return (0, B.jsx)("div", {
                 className: eM().regionSelectorMask, children: (0, B.jsxs)("div", {
                     className: eM().regionSelectorWrapper,
                     children: [(0, B.jsx)("div", {
@@ -824,7 +824,7 @@
                         children: (0, B.jsx)("div", {className: eM().line})
                     })]
                 })
-            }) : null
+            }) 
         }, eY = function (e) {
             var t = e.beforeClick, n = (0, R.useState)(!1), l = n[0], r = n[1];
             return (0, B.jsxs)("div", {
