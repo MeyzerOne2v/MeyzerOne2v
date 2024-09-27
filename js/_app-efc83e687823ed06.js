@@ -14457,10 +14457,10 @@ Sentry.init({...});
                 return {
                     hk: {
                         key: "hk-default",
-                        label: "ä¸­å›½é¦™æ¸¯",
+                        label: "中国é¦™æ¸¯",
                         icon: (0, h.jsx)("img", {
                             src: c.rx,
-                            alt: "ä¸­å›½é¦™æ¸¯",
+                            alt: "中国é¦™æ¸¯",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
@@ -14499,10 +14499,10 @@ Sentry.init({...});
                 return {
                     cn: {
                         key: "cn-default",
-                        label: "ä¸­å›½",
+                        label: "中国",
                         icon: (0, h.jsx)("img", {
                             src: c.RG,
-                            alt: "ä¸­å›½",
+                            alt: "中国",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
@@ -14514,7 +14514,7 @@ Sentry.init({...});
                             parent: "cn-default"
                         }, {
                             key: "cn-ja",
-                            label: "æ—¥æœ¬è¯­",
+                            label: "日本­",
                             host: n,
                             href: "https://".concat(n, "?lang=ja"),
                             locale: l.Go.ja,
@@ -14530,10 +14530,10 @@ Sentry.init({...});
                     },
                     hk: {
                         key: "hk-default",
-                        label: "ä¸­åœ‹é¦™æ¸¯",
+                        label: "中國香港",
                         icon: (0, h.jsx)("img", {
                             src: c.rx,
-                            alt: "ä¸­åœ‹é¦™æ¸¯",
+                            alt: "中國香港",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         children: [{
@@ -14595,10 +14595,10 @@ Sentry.init({...});
                     },
                     cn: {
                         key: "cn-default",
-                        label: "ä¸­å›½",
+                        label: "中国",
                         icon: (0, h.jsx)("img", {
                             src: c.Az,
-                            alt: "ä¸­å›½",
+                            alt: "中国",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: t,
@@ -14607,10 +14607,10 @@ Sentry.init({...});
                     },
                     hk: {
                         key: "hk-default",
-                        label: "ä¸­åœ‹é¦™æ¸¯",
+                        label: "中國香港",
                         icon: (0, h.jsx)("img", {
                             src: c.EB,
-                            alt: "ä¸­åœ‹é¦™æ¸¯",
+                            alt: "中國香港",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: n,
@@ -14619,10 +14619,10 @@ Sentry.init({...});
                     },
                     jp: {
                         key: "cn-ja",
-                        label: "æ—¥æœ¬",
+                        label: "日本",
                         icon: (0, h.jsx)("img", {
                             src: c.A9,
-                            alt: "ä¸­åœ‹é¦™æ¸¯",
+                            alt: "中國香港",
                             style: {width: "var(--rem-24)", height: "var(--rem-24)"}
                         }),
                         host: t,
@@ -22206,12 +22206,12 @@ Error:`, t)
             var n = e.locale, r = e.host;
             if (n && r) {
                 var o = "", a = "";
-                return o = t.isUS ? "USA" : t.isUK ? "UK" : t.isHK ? "ä¸­åœ‹é¦™æ¸¯" : "ä¸­å›½", a = n === i.Go.en ? "EN" : n === i.Go["zh-HK"] ? "ç¹ä½“" : "ç®€ä½“", "".concat(o, "(").concat(a, ")")
+                return o = t.isUS ? "USA" : t.isUK ? "UK" : t.isHK ? "中國香港" : "中国", a = n === i.Go.en ? "EN" : n === i.Go["zh-HK"] ? "ç¹ä½“" : "ç®€ä½“", "".concat(o, "(").concat(a, ")")
             }
-            return "ä¸­åœ‹é¦™æ¸¯(ç¹é«”)"
+            return "中國香港(ç¹é«”)"
         }, c = function (e, t) {
             var n = e.locale, r = e.host;
-            return n && r ? t.isUS ? "United States" : t.isUK ? "United Kingdom" : t.isHK ? n === i.Go.en ? "Global  (English)" : "ä¸­åœ‹é¦™æ¸¯" : i.Go.ja ? "æ—¥æœ¬" : "ä¸­å›½" : "ä¸­åœ‹é¦™æ¸¯(ç¹é«”)"
+            return n && r ? t.isUS ? "United States" : t.isUK ? "United Kingdom" : t.isHK ? n === i.Go.en ? "Global  (English)" : "中國香港" : i.Go.ja ? "日本" : "中国" : "中國香港(ç¹é«”)"
         }, u = function (e, t) {
             if ("en" === t || e.startsWith("/t")) return e;
             var n = t || "";
