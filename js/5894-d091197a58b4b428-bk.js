@@ -66,6 +66,18 @@
                                         }, t)
                                     })
                                 })]
+                            }), (0, B.jsx)("div", {
+                                className: J().downloadGuide,
+                                children: (0, B.jsxs)("div", {
+                                    className: J().appWrapper,
+                                    children: [(0, B.jsx)(Y.n, {
+                                        src: "https://static.xtransfer.com/boss/static/downloadapp_00dc4d4be96a777b.png",
+                                        alt: "xTransfer app"
+                                    }), (0, B.jsxs)("span", {
+                                        className: J().downloadDesc,
+                                        children: ["Download", (0, B.jsx)("br", {}), "XTransfer App"]
+                                    })]
+                                })
                             })]
                         })]
                     }), (0, B.jsxs)("section", {
