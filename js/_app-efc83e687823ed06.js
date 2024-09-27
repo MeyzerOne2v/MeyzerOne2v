@@ -22208,7 +22208,7 @@ Error:`, t)
                 var o = "", a = "";
                 return o = t.isUS ? "USA" : t.isUK ? "UK" : t.isHK ? "中國香港" : "中国", a = n === i.Go.en ? "EN" : n === i.Go["zh-HK"] ? "ç¹ä½“" : "ç®€ä½“", "".concat(o, "(").concat(a, ")")
             }
-            return "中國香港(ç¹é«”)"
+            return "中國香港(繁體)"
         }, c = function (e, t) {
             var n = e.locale, r = e.host;
             return n && r ? t.isUS ? "United States" : t.isUK ? "United Kingdom" : t.isHK ? n === i.Go.en ? "Global  (English)" : "中國香港" : i.Go.ja ? "日本" : "中国" : "中國香港(ç¹é«”)"
