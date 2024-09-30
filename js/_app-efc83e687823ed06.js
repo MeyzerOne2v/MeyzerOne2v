@@ -14228,9 +14228,9 @@ Sentry.init({...});
             N = "/help-center/search", M = "/help-center-h5", Z = "/help-center-h5/menu", A = "/help-center-h5/subMenu",
             R = "/help-center-h5/answer", I = "/help-center-h5/searchResult", L = "/landing";
         r = {}, (0, i.Z)(r, L, l), (0, i.Z)(r, "/landing/products", c), (0, i.Z)(r, "/landing/about-us", u), (0, i.Z)(r, "/landing/contact-us", w), (0, i.Z)(r, "/landing/protocol/cookie", C), (0, i.Z)(r, "/landing/protocol/privacy", S), (0, i.Z)(r, "/landing/protocol/website", k), (0, i.Z)(r, "/landing/call-us", _), (0, i.Z)(r, "/landing/services/wallet", f), (0, i.Z)(r, "/landing/services/payment", p), (0, i.Z)(r, "/landing/services/pricing", m), (0, i.Z)(r, "/landing/services/exchange", h), (0, i.Z)(r, "/landing/services/collection", d), (0, i.Z)(r, "/landing/about-us/company", g), (0, i.Z)(r, "/landing/news-and-blog", v), (0, i.Z)(r, "/landing/about-us/career", y), (0, i.Z)(r, "/landing/about-us/partner", b), (0, i.Z)(r, "/landing/support/contact-us", x), (0, i.Z)(r, "/landing/support/call-us", "/support/call-us");
-        var D = "/referral", F = "/h5/new/promotion/details", z = "/hscode.html",
-            $ = "/seo/en/exchange-rate/".concat(o.a7[0].toLowerCase(), "-to-").concat(o.a7[1].toLowerCase()).concat(".html"),
-            V = "/swiftcode.html", B = "/community.html"
+        var D = "/referral", F = "/h5/new/promotion/details", z = "/hscode",
+            $ = "/seo/en/exchange-rate/".concat(o.a7[0].toLowerCase(), "-to-").concat(o.a7[1].toLowerCase()),
+            V = "/swiftcode.html", B = "/community"
     }, 4636: function (e, t, n) {
         "use strict";
         n.d(t, {
@@ -21459,78 +21459,78 @@ Error:`, t)
         }(n, t), e), k = function () {
             return null
         };
-        // var P = n(7544), T = n.n(P), j = n(22868), N = n(95260), M = n(77532), Z = n(85832), A = n(6489), R = n(19881),
-        //     I = n.n(R), L = n(65363), D = n(79945), F = n(11163), z = n(39755), $ = n(16835), V = n(78234),
-        //     B = n(45210), U = function (e) {
-        //         var t, n, r, i = "function" == typeof e ? e : function () {
-        //         }, o = !1;
-        //         null !== (t = window) && void 0 !== t && null !== (n = t.PerformanceObserver) && void 0 !== n && null !== (r = n.supportedEntryTypes) && void 0 !== r && r.includes("largest-contentful-paint") ? new PerformanceObserver(function () {
-        //             o || (o = !0, i())
-        //         }).observe({type: "largest-contentful-paint", buffered: !0}) : i()
-        //     }, H = n(83454), q = function (e) {
-        //         var t = e || {}, r = t.defaultLoadTime, i = void 0 === r ? 0 : r, o = t.disableAutoLoad,
-        //             a = void 0 !== o && o, s = (0, Z.qM)(), l = s.isHK, c = s.isLanding, f = (0, Z.UL)(),
-        //             d = (0, $.Z)(f, 1)[0], p = (0, u.useState)(0)[1],
-        //             h = (0, u.useRef)({hasClick: !1, loaded: !1, autoOpen: !1}), m = (0, u.useRef)(), g = (0, u.useRef)(0),
-        //             v = (0, u.useRef)(0);
-        //         (0, u.useEffect)(function () {
-        //             var e;
-        //             !H.env.NEXT_PUBLIC_DISABLED_CUSTOMER_SERVICE && (window && window.location.href.indexOf("gtm_debug") > -1 || null === (e = m.current) || void 0 === e || e.unmount().then(function () {
-        //                 v.current++, x(v.current)
-        //             }))
-        //         }, [d]), (0, V.Z)(function () {
-        //             H.env.NEXT_PUBLIC_DISABLED_CUSTOMER_SERVICE || window && window.location.href.indexOf("gtm_debug") > -1 || (i > 0 ? setTimeout(function () {
-        //                 b()
-        //             }, i) : a || U(function () {
-        //                 return b()
-        //             }))
-        //         });
-        //         var y = function () {
-        //             h.current.loaded = !0, p(function (e) {
-        //                 return e + 1
-        //             });
-        //             try {
-        //                 if (g.current > 0) {
-        //                     var e, t = Date.now() - (null == g ? void 0 : g.current);
-        //                     null === (e = window.__bl) || void 0 === e || e.avg("customer_service_load_time", t), g.current = 0
-        //                 }
-        //             } catch (e) {
-        //                 console.log("error", e)
-        //             }
-        //             h.current.autoOpen && (window.dispatchEvent(new CustomEvent("onOpenImModal", {
-        //                 detail: {
-        //                     autoPlay: !0,
-        //                     type: "customerService",
-        //                     scene: "internationalSite"
-        //                 }
-        //             })), h.current.autoOpen = !1)
-        //         }, b = function (e) {
-        //             h.current.autoOpen = !!e, p(function (e) {
-        //                 return e + 1
-        //             }), g.current = Date.now(), h.current.loaded || h.current.hasClick || (h.current.hasClick = !0, window.addEventListener("IM_MODAL_READY", y), v.current++, x(v.current, !!e), p(function (e) {
-        //                 return e + 1
-        //             }))
-        //         // }, x = function (e, t) {
-        //         //     l && !c && (n.e(4593).then(n.bind(n, 64593)).then(function (e) {
-        //         //         m.current = e.loadMicroApp({
-        //         //             name: "mfe-user-customer-service-hk",
-        //         //             entry: "/mfe/mfe-user-customer-service-hk/",
-        //         //             container: "#customer-service",
-        //         //             props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
-        //         //         }, {
-        //         //             sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
-        //         //                 var t = new URL(e).pathname;
-        //         //                 return !/\/mfe-user-customer-service/.test(t)
-        //         //             }
-        //         //         })
-        //         //     }), h.current.hasClick = !0, p(function (e) {
-        //         //         return e + 1
-        //         //     }))
-        //         };
-        //         return (0, B.Z)(function () {
-        //             window.removeEventListener("IM_MODAL_READY", y), m.current && m.current.unmount()
-        //         }), {loadRef: h, handleLoadCustomerService: b}
-        //     }, W = ["title", "titleId"];
+        var P = n(7544), T = n.n(P), j = n(22868), N = n(95260), M = n(77532), Z = n(85832), A = n(6489), R = n(19881),
+            I = n.n(R), L = n(65363), D = n(79945), F = n(11163), z = n(39755), $ = n(16835), V = n(78234),
+            B = n(45210), U = function (e) {
+                var t, n, r, i = "function" == typeof e ? e : function () {
+                }, o = !1;
+                null !== (t = window) && void 0 !== t && null !== (n = t.PerformanceObserver) && void 0 !== n && null !== (r = n.supportedEntryTypes) && void 0 !== r && r.includes("largest-contentful-paint") ? new PerformanceObserver(function () {
+                    o || (o = !0, i())
+                }).observe({type: "largest-contentful-paint", buffered: !0}) : i()
+            }, H = n(83454), q = function (e) {
+                var t = e || {}, r = t.defaultLoadTime, i = void 0 === r ? 0 : r, o = t.disableAutoLoad,
+                    a = void 0 !== o && o, s = (0, Z.qM)(), l = s.isHK, c = s.isLanding, f = (0, Z.UL)(),
+                    d = (0, $.Z)(f, 1)[0], p = (0, u.useState)(0)[1],
+                    h = (0, u.useRef)({hasClick: !1, loaded: !1, autoOpen: !1}), m = (0, u.useRef)(), g = (0, u.useRef)(0),
+                    v = (0, u.useRef)(0);
+                (0, u.useEffect)(function () {
+                    var e;
+                    !H.env.NEXT_PUBLIC_DISABLED_CUSTOMER_SERVICE && (window && window.location.href.indexOf("gtm_debug") > -1 || null === (e = m.current) || void 0 === e || e.unmount().then(function () {
+                        v.current++, x(v.current)
+                    }))
+                }, [d]), (0, V.Z)(function () {
+                    H.env.NEXT_PUBLIC_DISABLED_CUSTOMER_SERVICE || window && window.location.href.indexOf("gtm_debug") > -1 || (i > 0 ? setTimeout(function () {
+                        b()
+                    }, i) : a || U(function () {
+                        return b()
+                    }))
+                });
+                var y = function () {
+                    h.current.loaded = !0, p(function (e) {
+                        return e + 1
+                    });
+                    try {
+                        if (g.current > 0) {
+                            var e, t = Date.now() - (null == g ? void 0 : g.current);
+                            null === (e = window.__bl) || void 0 === e || e.avg("customer_service_load_time", t), g.current = 0
+                        }
+                    } catch (e) {
+                        console.log("error", e)
+                    }
+                    h.current.autoOpen && (window.dispatchEvent(new CustomEvent("onOpenImModal", {
+                        detail: {
+                            autoPlay: !0,
+                            type: "customerService",
+                            scene: "internationalSite"
+                        }
+                    })), h.current.autoOpen = !1)
+                }, b = function (e) {
+                    h.current.autoOpen = !!e, p(function (e) {
+                        return e + 1
+                    }), g.current = Date.now(), h.current.loaded || h.current.hasClick || (h.current.hasClick = !0, window.addEventListener("IM_MODAL_READY", y), v.current++, x(v.current, !!e), p(function (e) {
+                        return e + 1
+                    }))
+                }, x = function (e, t) {
+                    l && !c && (n.e(4593).then(n.bind(n, 64593)).then(function (e) {
+                        m.current = e.loadMicroApp({
+                            name: "mfe-user-customer-service-hk",
+                            entry: "/mfe/mfe-user-customer-service-hk/",
+                            container: "#customer-service",
+                            props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
+                        }, {
+                            sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
+                                var t = new URL(e).pathname;
+                                return !/\/mfe-user-customer-service/.test(t)
+                            }
+                        })
+                    }), h.current.hasClick = !0, p(function (e) {
+                        return e + 1
+                    }))
+                };
+                return (0, B.Z)(function () {
+                    window.removeEventListener("IM_MODAL_READY", y), m.current && m.current.unmount()
+                }), {loadRef: h, handleLoadCustomerService: b}
+            }, W = ["title", "titleId"];
 
         function K() {
             return (K = Object.assign ? Object.assign.bind() : function (e) {
