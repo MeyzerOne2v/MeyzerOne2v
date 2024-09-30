@@ -844,13 +844,13 @@
                 var e = [{
                     customPicture: "https://static.xtransfer.com/boss/static/user-voice1_eeca109d007e6c27.png",
                     avatar: "https://static.xtransfer.com/boss/static/user-voice-1-h5_4c16bc87bb348f94.png",
-                    thinking: '"I use XTransfer not only to pay my Chinese suppliers, but also to pay and get paid globally. This account alone solves all my needs."',
+                    thinking: '"I use MEYZERONE not only to pay my Chinese suppliers, but also to pay and get paid globally. This account alone solves all my needs."',
                     name: "Mr. Ortiz Felipe",
                     position: "CEO, Guangzhou Afei Media Co., Ltd."
                 }, {
                     customPicture: "https://static.xtransfer.com/boss/static/picture02_a253c95d03cadd80.png",
                     avatar: "https://static.xtransfer.com/boss/static/avatar02_df607fcc8839eb9c.png",
-                    thinking: '"As both an importer and exporter, I\'ve found XTransfer to be invaluable in streamlining my payment processes. It has truly simplified international transactions for my business!"',
+                    thinking: '"As both an importer and exporter, I\'ve found MEYZERONE to be invaluable in streamlining my payment processes. It has truly simplified international transactions for my business!"',
                     name: "Ms. Trịnh Thị Minh Kiều",
                     position: "CEO, Quang Minh Kieu Import Export Trading Service Co., Ltd."
                 }, {
@@ -862,19 +862,19 @@
                 }, {
                     customPicture: "https://static.xtransfer.com/boss/static/picture04_6593da161d25c03e.png",
                     avatar: "https://static.xtransfer.com/boss/static/avatar04_64c85d7a85fa7148.png",
-                    thinking: '"XTransfer is safe and compliant. Money arrives in seconds 24/7, which has sped up my trade process. Buyers are more willing to work with me because of that!"',
+                    thinking: '"MEYZERONE is safe and compliant. Money arrives in seconds 24/7, which has sped up my trade process. Buyers are more willing to work with me because of that!"',
                     name: "Ms. Nan QIAO",
                     position: "General Manager, Yiwu Beicheng Trading Co., Ltd."
                 }, {
                     customPicture: "https://static.xtransfer.com/boss/static/picture05_812dacf5ed318c03.png",
                     avatar: "https://static.xtransfer.com/boss/static/avatar05_ec4a3acde9bf1507.png",
-                    thinking: '"XTransfer is not merely an online platform. Its knowledgeable staff are highly supportive in facilitating legitimate money transfer, effectively minimizing the risk of account freezes to zero."',
+                    thinking: '"MEYZERONE is not merely an online platform. Its knowledgeable staff are highly supportive in facilitating legitimate money transfer, effectively minimizing the risk of account freezes to zero."',
                     name: "Mr. Eddie CHOU",
                     position: "CEO, United Art Metals Factory Ltd."
                 }, {
                     customPicture: "https://static.xtransfer.com/boss/static/picture06_42b272c0eaabb5ae.png",
                     avatar: "https://static.xtransfer.com/boss/static/avatar06_a40b1447d877cbaa.png",
-                    thinking: '"With 20 years in the biometric industry and a global customer base, we\'ve used XTransfer for three years - a fast and convenient solution for payment collection."',
+                    thinking: '"With 20 years in the biometric industry and a global customer base, we\'ve used MEYZERONE for three years - a fast and convenient solution for payment collection."',
                     name: "Ms. Sissi TAO",
                     position: "General Manager, Granding New Technology Generation"
                 }];
