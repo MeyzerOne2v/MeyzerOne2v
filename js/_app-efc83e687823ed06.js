@@ -14223,7 +14223,7 @@ Sentry.init({...});
             u = "/about-us", f = "/services/wallet.html", d = "/services/collection.html", p = "/services/payment.html",
             h = "/services/exchange.html", m = "/services/pricing.html", g = "/about-us/company.html", v = "/news-and-blog.html",
             y = "/about-us/career.html", b = "/about-us/partner.html", x = "/support/contact-us.html", w = "/contact-us",
-            _ = "/call-us", E = "/knowledge-hub.html", O = "/archives", C = "/protocol/cookie.html", S = "/protocol/privacy",
+            _ = "/call-us", E = "/knowledge-hub.html", O = "/archives", C = "/protocol/cookie.html", S = "/protocol/privacy.html",
             k = "/protocol/website.html", P = "/help.html", T = "/help-center/menu", j = "/help-center/question",
             N = "/help-center/search", M = "/help-center-h5", Z = "/help-center-h5/menu", A = "/help-center-h5/subMenu",
             R = "/help-center-h5/answer", I = "/help-center-h5/searchResult", L = "/landing";
