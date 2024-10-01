@@ -1430,10 +1430,6 @@
                         src: "https://static.xtransfer.com/boss/static/2_a848350d673d5e71.png",
                         className: r()(d().bottomleft, d().coin),
                         alt: "coin"
-                    // }), (0, p.jsx)(x.n, {
-                    //     src: "https://static.xtransfer.com/boss/static/4_0bc8c23b28edf68a.png",
-                    //     className: r()(d().bottomright, d().coin),
-                    //     alt: "coin"
                     })]
                 })]
             })
