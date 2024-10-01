@@ -14228,9 +14228,9 @@ Sentry.init({...});
             N = "/help-center/search", M = "/help-center-h5", Z = "/help-center-h5/menu", A = "/help-center-h5/subMenu",
             R = "/help-center-h5/answer", I = "/help-center-h5/searchResult", L = "/landing";
         r = {}, (0, i.Z)(r, L, l), (0, i.Z)(r, "/landing/products", c), (0, i.Z)(r, "/landing/about-us", u), (0, i.Z)(r, "/landing/contact-us", w), (0, i.Z)(r, "/landing/protocol/cookie", C), (0, i.Z)(r, "/landing/protocol/privacy", S), (0, i.Z)(r, "/landing/protocol/website", k), (0, i.Z)(r, "/landing/call-us", _), (0, i.Z)(r, "/landing/services/wallet", f), (0, i.Z)(r, "/landing/services/payment", p), (0, i.Z)(r, "/landing/services/pricing", m), (0, i.Z)(r, "/landing/services/exchange", h), (0, i.Z)(r, "/landing/services/collection", d), (0, i.Z)(r, "/landing/about-us/company", g), (0, i.Z)(r, "/landing/news-and-blog", v), (0, i.Z)(r, "/landing/about-us/career", y), (0, i.Z)(r, "/landing/about-us/partner", b), (0, i.Z)(r, "/landing/support/contact-us", x), (0, i.Z)(r, "/landing/support/call-us", "/support/call-us");
-        var D = "/referral", F = "/h5/new/promotion/details", z = "/hscode",
+        var D = "/referral", F = "/h5/new/promotion/details", z = "/hscode.html",
             $ = "/seo/en/exchange-rate/".concat(o.a7[0].toLowerCase(), "-to-").concat(o.a7[1].toLowerCase()),
-            V = "/swiftcode.html", B = "/community"
+            V = "/swiftcode.html", B = "/community.html"
     }, 4636: function (e, t, n) {
         "use strict";
         n.d(t, {
