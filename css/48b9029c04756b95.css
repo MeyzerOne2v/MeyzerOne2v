@@ -1008,7 +1008,10 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    .index_menusWrapper__l2A_C {
+    .index_headerWrapper__GsdHQ{
+        display: none;
+    }
+    /* .index_menusWrapper__l2A_C {
       display: none;
     }
   
@@ -1045,5 +1048,5 @@
     #menu ul li {
         padding: 10px;
         border-bottom: 1px solid #ccc;
-    }
+    } */
 }
