@@ -5,6 +5,11 @@
 {
     display: none;
 }
+
+#customer-service {
+    display: none !important;
+}
+
 .index_wrapper__nWaZA .index_image__ip0xy {
     width: 100%;
     opacity: 1;
