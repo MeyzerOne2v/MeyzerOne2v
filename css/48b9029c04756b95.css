@@ -303,7 +303,9 @@
     .index_menusWrapper__l2A_C{
         display: none;
     }
-    
+    #international-header-menu{
+        display: none;
+    }
     .index_menus__aNstu{
         display: none;
     }
