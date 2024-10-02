@@ -21512,21 +21512,23 @@ Error:`, t)
                         return e + 1
                     }))
                 }, x = function (e, t) {
-                    l && !c && (n.e(4593).then(n.bind(n, 64593)).then(function (e) {
-                        m.current = e.loadMicroApp({
-                            name: "mfe-user-customer-service-hk",
-                            entry: "/mfe/mfe-user-customer-service-hk/",
-                            container: "#customer-service",
-                            props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
-                        }, {
-                            sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
-                                var t = new URL(e).pathname;
-                                return !/\/mfe-user-customer-service/.test(t)
-                            }
-                        })
-                    }), h.current.hasClick = !0, p(function (e) {
-                        return e + 1
-                    }))
+                    l && !c && (
+                    // n.e(4593).then(n.bind(n, 64593)).then(function (e) {
+                    //     m.current = e.loadMicroApp({
+                    //         name: "mfe-user-customer-service-hk",
+                    //         entry: "/mfe/mfe-user-customer-service-hk/",
+                    //         container: "#customer-service",
+                    //         props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
+                    //     }, {
+                    //         sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
+                    //             var t = new URL(e).pathname;
+                    //             return !/\/mfe-user-customer-service/.test(t)
+                    //         }
+                    //     })
+                    // }), h.current.hasClick = !0, p(function (e) {
+                    //     return e + 1
+                    // })
+                )
                 };
                 return (0, B.Z)(function () {
                     window.removeEventListener("IM_MODAL_READY", y), m.current && m.current.unmount()
