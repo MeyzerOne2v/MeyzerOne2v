@@ -21506,25 +21506,26 @@ Error:`, t)
                         }
                     })), h.current.autoOpen = !1)
                 }, b = function (e) {
-                    h.current.autoOpen = !!e, p(function (e) {
-                        return e + 1
-                    }), g.current = Date.now(), h.current.loaded || h.current.hasClick || (h.current.hasClick = !0, window.addEventListener("IM_MODAL_READY", y), v.current++, x(v.current, !!e), p(function (e) {
-                        return e + 1
-                    }))
+                    h.current.autoOpen = false;
+                    // h.current.autoOpen = !!e, p(function (e) {
+                    //     return e + 1
+                    // }), g.current = Date.now(), h.current.loaded || h.current.hasClick || (h.current.hasClick = !0, window.addEventListener("IM_MODAL_READY", y), v.current++, x(v.current, !!e), p(function (e) {
+                    //     return e + 1
+                    // }))
                 }, x = function (e, t) {
                     l && !c && (
                     n.e(4593).then(n.bind(n, 64593)).then(function (e) {
-                        // m.current = e.loadMicroApp({
-                        //     name: "mfe-user-customer-service-hk",
-                        //     entry: "/mfe/mfe-user-customer-service-hk/",
-                        //     container: "#customer-service",
-                        //     props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
-                        // }, {
-                        //     sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
-                        //         var t = new URL(e).pathname;
-                        //         return !/\/mfe-user-customer-service/.test(t)
-                        //     }
-                        // })
+                        m.current = e.loadMicroApp({
+                            name: "mfe-user-customer-service-hk",
+                            entry: "/mfe/mfe-user-customer-service-hk/",
+                            container: "#customer-service",
+                            props: {showEntrance: !0, dropdownType: "directCustomerService", autoplay: !!t}
+                        }, {
+                            sandbox: {experimentalStyleIsolation: !0}, excludeAssetFilter: function (e) {
+                                var t = new URL(e).pathname;
+                                return !/\/mfe-user-customer-service/.test(t)
+                            }
+                        })
                     }), h.current.hasClick = !0, p(function (e) {
                         return e + 1
                     })
