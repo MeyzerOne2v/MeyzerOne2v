@@ -992,7 +992,7 @@
   /* Font Awesome icon size and style */
   .hamburger-menu i {
     font-size: 24px;
-    color: #333;
+    /* color: #333; */
   }
   
 @keyframes index_circle__UqpYT {
@@ -1016,42 +1016,34 @@
       display: block;
     }
   
-    /* Show the menu when toggled */
-    .index_menusWrapper__l2A_C.open {
-      display: block;
-      position: absolute;
-      top: 60px;
-      right: 0;
-      background-color: white;
-      width: 100%;
-      padding: 10px;
+    .index_headerWrapper__GsdHQ {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
-  
-    .index_menus__aNstu {
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 10px;
+
+    .index_logo__0utZh {
+        margin: 0 auto;
     }
-  
- /* Display the login and register buttons */
- .index_menu__mXxCs {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 15px;
-  }
 
-  /* Adjust button styles for mobile */
-  .index_xt-btn__6ZSLz {
-    width: 100%;
-    text-align: center;
-    padding: 10px;
-    background-color: #333;
-    color: white;
-    border-radius: 5px;
-  }
+    #menu.active {
+        display: block;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        z-index: 999;
+        text-align: center;
+    }
 
-    /* .index_menu__mXxCs {
-      display: none;
-    } */
-  }
+    #menu ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    #menu ul li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+}
