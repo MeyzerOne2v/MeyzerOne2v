@@ -1033,7 +1033,25 @@
       gap: 10px;
     }
   
-    .index_menu__mXxCs {
+ /* Display the login and register buttons */
+ .index_menu__mXxCs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+  }
+
+  /* Adjust button styles for mobile */
+  .index_xt-btn__6ZSLz {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+
+    /* .index_menu__mXxCs {
       display: none;
-    }
+    } */
   }
