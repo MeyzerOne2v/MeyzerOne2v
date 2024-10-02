@@ -1089,10 +1089,13 @@
             width="0"></iframe>
 </noscript>
 <script>
-    var element = document.querySelector('[style="position: fixed; bottom: 38px; right: 20px; z-index: 50; cursor: pointer;"]');
-    if (element) {
-        element.style.display = 'none';
-    }
+   // Find all elements with the style 'position: fixed' and then check for the exact match of other style properties
+    document.querySelectorAll('*').forEach(function(element) {
+        var style = window.getComputedStyle(element);
+        if (style.position === 'fixed' && style.bottom === '38px' && style.right === '20px' && style.zIndex === '50') {
+            element.style.display = 'none'; // Hide the element
+        }
+    });
     // Hamburger menu functionality
     const hamburgerMenu = document.getElementById('hamburger-menu');
     const navMenu = document.getElementById('nav-menu');
