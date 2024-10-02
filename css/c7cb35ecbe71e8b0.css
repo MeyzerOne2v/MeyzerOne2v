@@ -3062,6 +3062,10 @@
     }
 }
 
+.index_contactBtn__pwO1o{
+    display: none
+}
+
 .index_contactBtn__pwO1o a:hover {
     color: unset !important
 }
