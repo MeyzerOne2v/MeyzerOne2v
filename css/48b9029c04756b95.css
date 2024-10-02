@@ -984,6 +984,17 @@
     animation: index_circle__UqpYT .75s linear infinite
 }
 
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  /* Font Awesome icon size and style */
+  .hamburger-menu i {
+    font-size: 24px;
+    color: #333;
+  }
+  
 @keyframes index_circle__UqpYT {
     0% {
         transform: rotate(0)
@@ -994,3 +1005,35 @@
 }
 
 /*# sourceMappingURL=48b9029c04756b95.css.map*/
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .index_menusWrapper__l2A_C {
+      display: none;
+    }
+  
+    .hamburger-menu {
+      display: block;
+    }
+  
+    /* Show the menu when toggled */
+    .index_menusWrapper__l2A_C.open {
+      display: block;
+      position: absolute;
+      top: 60px;
+      right: 0;
+      background-color: white;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .index_menus__aNstu {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  
+    .index_menu__mXxCs {
+      display: none;
+    }
+  }
