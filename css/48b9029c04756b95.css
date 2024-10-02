@@ -7,6 +7,12 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .index_headerWrapper__GsdHQ{
+        display: none;
+    }
+    .index_headerWrapper__GsdHQ{
+        display: none;
+    }
     .index_main__DQvu_ {
         margin-top: 0
     }
