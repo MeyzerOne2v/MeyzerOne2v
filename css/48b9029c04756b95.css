@@ -293,7 +293,7 @@
     animation: index_textMove__2dCil 2s infinite
 }
 
-@media only screen and (max-width: 900px) {
+/* @media only screen and (max-width: 900px) {
     .index_menu__mXxCs .index_button__DRNLY {
         flex: 1 1;
         height: var(--rem-40);
@@ -310,7 +310,7 @@
         background: var(--color-primary);
         color: var(--text-black-FFF)
     }
-}
+} */
 
 @keyframes index_move__I1vUi {
     0% {
