@@ -59,6 +59,7 @@
     .index_menu__mXxCs{
         display: none;
     }
+
     .index_main__DQvu_ {
         margin-top: 0
     }
@@ -1060,7 +1061,11 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
-    .index_headerWrapper__GsdHQ{
+    .index_menusWrapper__l2A_C{
+        display: none;
+    }
+    
+    .index_menu__mXxCs{
         display: none;
     }
     /* .index_menusWrapper__l2A_C {
