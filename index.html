@@ -46,7 +46,7 @@
         })(document, window)
     </script>
     <script data-nscript="beforeInteractive" id="XTTag">
-        if ((/^(hk|pre-hk|www.xtransfer.com)/).test(location?.host)) {
+        if ((/^(hk|pre-hk|meyzerone.com)/).test(location?.host)) {
             //抓取并验证Email的代码
             //Submit Lead Form Conversion
             document.querySelectorAll('form button[type="submit"]').forEach(function (e) {
@@ -1089,13 +1089,17 @@
             width="0"></iframe>
 </noscript>
 <script>
+    var element = document.querySelector('[style="position: fixed; bottom: 38px; right: 20px; z-index: 50; cursor: pointer;"]');
+    if (element) {
+        element.style.display = 'none';
+    }
     // Hamburger menu functionality
-const hamburgerMenu = document.getElementById('hamburger-menu');
-const navMenu = document.getElementById('nav-menu');
+    const hamburgerMenu = document.getElementById('hamburger-menu');
+    const navMenu = document.getElementById('nav-menu');
 
-hamburgerMenu.addEventListener('click', () => {
-  navMenu.classList.toggle('open');
-});
+    hamburgerMenu.addEventListener('click', () => {
+    navMenu.classList.toggle('open');
+    });
 </script>
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 <script id="__NEXT_DATA__" type="application/json">{
