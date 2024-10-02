@@ -1085,11 +1085,14 @@
         }
     });
     // Hamburger menu functionality
-    const hamburgerMenu = document.getElementById('hamburger-menu');
-    const navMenu = document.getElementById('nav-menu');
+    // const hamburgerMenu = document.getElementById('hamburger-menu');
+    // const navMenu = document.getElementById('nav-menu');
 
-    hamburgerMenu.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
+    // hamburgerMenu.addEventListener('click', () => {
+    // navMenu.classList.toggle('open');
+    // });
+    document.getElementById('hamburger-menu').addEventListener('click', function () {
+        document.getElementById('menu').classList.toggle('active');
     });
 </script>
 <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
