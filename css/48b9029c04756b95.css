@@ -245,6 +245,7 @@
         position: absolute;
         right: 0;
         top: 0;
+        z:10;
       }
     /* .index_menu__mXxCs .index_button__DRNLY {
         flex: 1 1;
