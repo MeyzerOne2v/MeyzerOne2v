@@ -336,6 +336,7 @@
         height: 500px;
         color: white;
         border-radius: 10px;
+        z-index: 100;
       }
       
       .topnav {
