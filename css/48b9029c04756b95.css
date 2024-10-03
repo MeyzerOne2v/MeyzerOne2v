@@ -9,9 +9,9 @@
 @media only screen and (max-width: 900px) {
     
 } */
-.mobile-container {
+/* .mobile-container {
     display: none;
-}
+} */
 .mobile-container {
     max-width: 480px;
     margin: auto;
