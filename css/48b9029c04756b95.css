@@ -291,7 +291,7 @@
 @media only screen and (max-width: 900px) {
 
     .index_headerWrapper__GsdHQ{
-        display: block;
+        display: none;
     }
     
     .mobile-container {
