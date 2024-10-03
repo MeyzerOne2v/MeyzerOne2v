@@ -9,7 +9,13 @@
 @media only screen and (max-width: 900px) {
     
 } */
-
+.index_header__hhqFz a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 .index_footer__Xzj36 {
     --text-color-title: #fff;
     --text-color-gray: hsla(0, 0%, 100%, .6);
@@ -246,6 +252,7 @@
         right: 0;
         top: 0;
       }
+
       .index_header__hhqFz a {
         color: white;
         padding: 14px 16px;
@@ -253,6 +260,7 @@
         font-size: 17px;
         display: block;
       }
+
     /* .index_menu__mXxCs .index_button__DRNLY {
         flex: 1 1;
         height: var(--rem-40);
