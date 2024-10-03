@@ -239,6 +239,13 @@
 }
 
 @media only screen and (max-width: 900px) {
+    .index_header__hhqFz a.icon {
+        background: black;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
     /* .index_menu__mXxCs .index_button__DRNLY {
         flex: 1 1;
         height: var(--rem-40);
