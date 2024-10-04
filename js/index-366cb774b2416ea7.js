@@ -103,10 +103,17 @@
     // Inject CSS styles into the <head>
     var style = document.createElement('style');
     style.textContent = `
-        // .mobile-container {
-        //     display: none;
-        // }
-            
+         /* Styling for the mobile container */
+        .mobile-container {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: #333;
+            color: white;
+            display: none; /* Initially hidden */
+        }
+
         @media only screen and (max-width: 900px) {    
             .mobile-container {
                 position: fixed; 
@@ -153,7 +160,7 @@
             //     font-size: 17px;
                 height: 35px;
             }
-    }
+        }
         `;
     document.head.appendChild(style);
 
