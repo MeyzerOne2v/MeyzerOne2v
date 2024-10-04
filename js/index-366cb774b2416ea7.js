@@ -141,6 +141,13 @@
             background-color: #04AA6D;
             color: white;
         }
+
+        /* Styling for the logo */
+        .logo {
+            font-size: 17px;
+            padding: 14px 16px;
+            max-height: 50px; /* Adjusts the logo height */
+        }
         `;
     document.head.appendChild(style);
 
@@ -149,7 +156,7 @@
     mobileContainer.className = 'mobile-container';
     mobileContainer.innerHTML = `
     <div class="topnav">
-        <a href="#home" class="active"><img alt="logo" font-size="17px" padding="14px 16px"  src="https://meyzerone.com/mone.png"/></a>
+        <a href="#home" class="active"><img alt="logo"  class="logo" src="https://meyzerone.com/mone.png"/></a>
         <div id="myLinks">
             <a href="#news">News</a>
             <a href="#contact">Contact</a>
