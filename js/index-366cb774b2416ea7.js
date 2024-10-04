@@ -123,7 +123,7 @@
             color: black;
             padding: 14px 16px;
             text-decoration: none;
-            max-height: 30px;
+            max-height: 40px;
             display: block;
         }
         .topnav a.icon {
