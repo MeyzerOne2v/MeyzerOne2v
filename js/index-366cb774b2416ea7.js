@@ -144,8 +144,7 @@
         /* Styling for the logo */
         .logo {
             font-size: 17px;
-            padding: 14px 16px;
-            max-height: 50px; /* Adjusts the logo height */
+            
         }
         `;
     document.head.appendChild(style);
