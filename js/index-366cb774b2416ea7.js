@@ -113,7 +113,6 @@
         }
         .topnav {
             overflow: hidden;
-            background-color: #333;
             position: relative;
         }
         .topnav #myLinks {
