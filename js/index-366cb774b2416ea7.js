@@ -124,7 +124,7 @@
             color: black;
             padding: 14px 16px;
             text-decoration: none;
-            max-height: 40px;
+            max-height: 50px;
             display: block;
         }
         .topnav a.icon {
