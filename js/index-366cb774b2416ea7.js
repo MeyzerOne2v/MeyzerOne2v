@@ -149,7 +149,7 @@
     mobileContainer.className = 'mobile-container';
     mobileContainer.innerHTML = `
     <div class="topnav">
-        <a href="#home" class="active">Logo</a>
+        <a href="#home" class="active"><img alt="logo" class="index_logo__0utZh" src="https://meyzerone.com/mone.png"/></a>
         <div id="myLinks">
             <a href="#news">News</a>
             <a href="#contact">Contact</a>
