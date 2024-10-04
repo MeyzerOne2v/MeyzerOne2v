@@ -149,7 +149,7 @@
         /* Styling for the logo */
         .logo {
         //     font-size: 17px;
-            height: 40px;
+            height: 35px;
         }
         `;
     document.head.appendChild(style);
