@@ -106,7 +106,8 @@
         .mobile-container {
             position: fixed; 
             top: 0;
-            z-index: 1000; 
+            z-index: 1000l;
+            width: 100%;
             max-width: 900px;
             margin: auto;
             background-color: white;
