@@ -104,12 +104,15 @@
     var style = document.createElement('style');
     style.textContent = `
         .mobile-container {
+            position: fixed; /* Keeps the container fixed at the top */
+            top: 0; /* Positions the container at the top */
+            z-index: 1000; /* Ensures it's on top of other content */
             max-width: 900px;
             margin: auto;
             height: 500px;
             color: white;
             border-radius: 10px;
-            top: 0;
+            
         }
         .topnav {
             overflow: hidden;
