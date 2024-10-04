@@ -104,7 +104,7 @@
     var style = document.createElement('style');
     style.textContent = `
         .mobile-container {
-            max-width: 480px;
+            max-width: 900px;
             margin: auto;
             height: 500px;
             color: white;
