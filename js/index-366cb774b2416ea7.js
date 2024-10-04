@@ -95,9 +95,9 @@
         //     document.body.appendChild(script);
         // }
 // Detect if the user is on a mobile device
-var isMobile = window.matchMedia("only screen and (max-width: 900px)").matches;
+// var isMobile = window.matchMedia("only screen and (max-width: 900px)").matches;
 
-if (isMobile) {
+// if (isMobile) {
     // Inject meta tag for viewport into the <head>
     
     // Inject CSS styles into the <head>
@@ -178,7 +178,7 @@ if (isMobile) {
     // }
     // `;
     // document.body.appendChild(script);
-}
+// }
         function u(e) {
             for (var t = 1; t < arguments.length; t++) {
                 var n = null != arguments[t] ? arguments[t] : {};
