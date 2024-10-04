@@ -103,9 +103,9 @@
     // Inject CSS styles into the <head>
     var style = document.createElement('style');
     style.textContent = `
-        .mobile-container {
-            display: none;
-        }
+        // .mobile-container {
+        //     display: none;
+        // }
             
         @media only screen and (max-width: 900px) {    
             .mobile-container {
