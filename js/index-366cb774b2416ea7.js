@@ -103,9 +103,6 @@
     // Inject CSS styles into the <head>
     var style = document.createElement('style');
     style.textContent = `
-    body {
-        font-family: Arial, Helvetica, sans-serif;
-    }
     .mobile-container {
         max-width: 480px;
         margin: auto;
