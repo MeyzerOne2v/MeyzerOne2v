@@ -104,50 +104,56 @@
     var style = document.createElement('style');
     style.textContent = `
         .mobile-container {
-            position: fixed; 
-            top: 0;
-            z-index: 1000;
-            width: 100%;
-            max-width: 900px;
-            margin: auto;
-            background-color: white;
-            color: white;        
-        }
-        .topnav {
-            overflow: hidden;
-            position: relative;
-        }
-        .topnav #myLinks {
             display: none;
         }
-        .topnav a {
-            color: black;
-            padding: 14px 16px;
-            text-decoration: none;
-            max-height: 50px;
-            display: block;
-        }
-        .topnav a.icon {
-            background: white;
-            display: block;
-            position: absolute;
-            right: 0;
-            top: 0;
-        }
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-         .active {
-            background-color: white;
-        //     color: white;
-        }
+            
+        @media only screen and (max-width: 900px) {    
+            .mobile-container {
+                position: fixed; 
+                top: 0;
+                z-index: 1000;
+                width: 100%;
+                max-width: 900px;
+                margin: auto;
+                background-color: white;
+                color: white;        
+            }
+            .topnav {
+                overflow: hidden;
+                position: relative;
+            }
+            .topnav #myLinks {
+                display: none;
+            }
+            .topnav a {
+                color: black;
+                padding: 14px 16px;
+                text-decoration: none;
+                max-height: 50px;
+                display: block;
+            }
+            .topnav a.icon {
+                background: white;
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+            .active {
+                background-color: white;
+            //     color: white;
+            }
 
-        /* Styling for the logo */
-        .logo {
-        //     font-size: 17px;
-            height: 35px;
-        }
+            /* Styling for the logo */
+            .logo {
+            //     font-size: 17px;
+                height: 35px;
+            }
+    }
         `;
     document.head.appendChild(style);
 
