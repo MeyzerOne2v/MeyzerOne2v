@@ -120,7 +120,7 @@
             display: none;
         }
         .topnav a {
-            color: white;
+            color: black;
             padding: 14px 16px;
             text-decoration: none;
             max-height: 30px;
