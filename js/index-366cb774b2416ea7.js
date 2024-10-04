@@ -119,9 +119,6 @@
         }
         .topnav #myLinks {
             display: none;
-            z-index: 1000;
-            width: 100%;
-            max-width: 900px;
         }
         .topnav a {
             color: black;
