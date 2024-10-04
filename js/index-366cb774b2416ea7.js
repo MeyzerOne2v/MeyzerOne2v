@@ -144,10 +144,10 @@
         }
 
         /* Styling for the logo */
-        // .logo {
+        .logo {
         //     font-size: 17px;
-            
-        // }
+            height: 40px;
+        }
         `;
     document.head.appendChild(style);
 
