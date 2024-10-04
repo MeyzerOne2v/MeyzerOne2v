@@ -123,7 +123,7 @@
             color: white;
             padding: 14px 16px;
             text-decoration: none;
-            font-size: 17px;
+            max-height: 30px;
             display: block;
         }
         .topnav a.icon {
@@ -143,10 +143,10 @@
         }
 
         /* Styling for the logo */
-        .logo {
-            font-size: 17px;
-            max
-        }
+        // .logo {
+        //     font-size: 17px;
+            
+        // }
         `;
     document.head.appendChild(style);
 
