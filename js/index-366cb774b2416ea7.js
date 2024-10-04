@@ -128,7 +128,7 @@
             display: block;
         }
         .topnav a.icon {
-            background: black;
+            background: white;
             display: block;
             position: absolute;
             right: 0;
