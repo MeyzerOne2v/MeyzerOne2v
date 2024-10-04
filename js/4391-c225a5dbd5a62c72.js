@@ -1431,7 +1431,7 @@
                         className: r()(d().bottomleft, d().coin),
                         alt: "coin"
                     }), (0, p.jsx)(x.n, {
-                        src: "https://aifi.world/4_0bc8c23b28edf68a.png",
+                        src: "https://meyzerone.com/4_0bc8c23b28edf68a.png",
                         className: r()(d().bottomright, d().coin),
                         alt: "coin"
                     })]
