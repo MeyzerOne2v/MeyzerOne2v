@@ -111,7 +111,7 @@
             z-index: 1000;
             background-color: #333;
             color: white;
-            display: none; /* Initially hidden */
+            display: none; 
         }
 
         @media only screen and (max-width: 900px) {    
