@@ -12,7 +12,7 @@
 /* .mobile-container {
     display: none;
 } */
-.mobile-container {
+/* .mobile-container {
     max-width: 480px;
     margin: auto;
     background-color: #555;
@@ -55,7 +55,7 @@
 .active {
     background-color: #04AA6D;
     color: white;
-}
+} */
 
 /**/
 
@@ -329,7 +329,7 @@
         background: var(--color-primary);
         color: var(--text-black-FFF)
     } */
-    .mobile-container {
+    /* .mobile-container {
         max-width: 480px;
         margin: auto;
         background-color: #555;
@@ -373,7 +373,7 @@
       .active {
         background-color: #04AA6D;
         color: white;
-      }
+      } */
 
     .index_menusWrapper__l2A_C{
         display: none;

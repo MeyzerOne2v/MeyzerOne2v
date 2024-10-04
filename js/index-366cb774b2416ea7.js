@@ -104,9 +104,9 @@
     var style = document.createElement('style');
     style.textContent = `
         .mobile-container {
-            position: fixed; /* Keeps the container fixed at the top */
-            top: 0; /* Positions the container at the top */
-            z-index: 1000; /* Ensures it's on top of other content */
+            position: fixed; 
+            top: 0;
+            z-index: 1000; /
             max-width: 900px;
             margin: auto;
             color: white;        
@@ -144,7 +144,7 @@
         /* Styling for the logo */
         .logo {
             font-size: 17px;
-            
+            max
         }
         `;
     document.head.appendChild(style);
