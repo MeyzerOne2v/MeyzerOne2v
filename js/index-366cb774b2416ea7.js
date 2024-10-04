@@ -137,9 +137,9 @@
             background-color: #ddd;
             color: black;
         }
-        .active {
-            background-color: #04AA6D;
-            color: white;
+         .active {
+            background-color: white;
+        //     color: white;
         }
 
         /* Styling for the logo */
