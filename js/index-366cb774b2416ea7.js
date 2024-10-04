@@ -164,9 +164,11 @@
     <div class="topnav">
         <a href="#home" class="active"><img alt="logo"  class="logo" src="https://meyzerone.com/mone.png"/></a>
         <div id="myLinks">
-            <a href="#news">News</a>
-            <a href="#contact">Contact</a>
-            <a href="#about">About</a>
+            <a href="#product">Product & Services</a>
+            <a href="#about">About us</a>
+            <a href="#support">About</a>
+            <a href="#login">Login</a>
+            <a href="#register">Create Account</a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
             <i class="fa fa-bars"></i>
