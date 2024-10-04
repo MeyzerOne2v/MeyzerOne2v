@@ -109,10 +109,7 @@
             z-index: 1000; /* Ensures it's on top of other content */
             max-width: 900px;
             margin: auto;
-            height: 500px;
-            color: white;
-            border-radius: 10px;
-            
+            color: white;        
         }
         .topnav {
             overflow: hidden;
